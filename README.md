@@ -6,6 +6,8 @@ This is a standalone Python command-line workflow built as a CreativeX research 
 
 Start with the [live test and account tables](EXAMPLE.md), [full account brief](examples/live-validation/the-perfume-shop.md) or [CSV lead list](examples/live-validation/leads.csv).
 
+Send the [workflow flowchart](docs/SDR-research-workflow.png), or edit its [React Flow source](flowchart/README.md).
+
 **Live test completed:** a UK job search found The Perfume Shop's Design Operations & Production Manager vacancy; the workflow matched **20 active Meta ads** and selected **three contact candidates** from a live people lookup. [Read the brief](examples/live-validation/the-perfume-shop.md) or [open the lead list](examples/live-validation/leads.csv).
 
 The batch completed after fixes and resuming received responses. Current roles and ad activity are provider-reported; direct Meta/LinkedIn spot-checks were blocked. This proves the integrations and export path, with independent source corroboration still pending. The sample is separate from the older manual research and synthetic demo. [Full validation](docs/VALIDATION.md).

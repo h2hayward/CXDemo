@@ -1,0 +1,41 @@
+:root { font-family: Arial, Helvetica, sans-serif; color: #20352f; background: #e9ede9; font-synthesis: none; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+.toolbar { display: flex; align-items: center; justify-content: space-between; gap: 24px; max-width: 1104px; margin: 24px auto; padding: 0 8px; font-size: 16px; color: #52635c; }
+button { appearance: none; border: 1px solid #236b56; background: #236b56; color: #f8fbf8; padding: 12px 24px; border-radius: 8px; font: 600 16px/1.5 Arial, sans-serif; cursor: pointer; transition: background-color 140ms ease-out, transform 140ms ease-out; }
+button:hover:not(:disabled) { background: #18523f; }
+button:focus-visible { outline: 3px solid #236b56; outline-offset: 4px; }
+button:active:not(:disabled) { transform: translateY(1px); }
+button:disabled { background: #b9c5be; border-color: #b9c5be; color: #34473d; cursor: wait; }
+.export-error { color: #8d2929; max-width: 1104px; margin: 16px auto; }
+.sheet-wrap { overflow-x: auto; padding: 0 16px 40px; }
+.sheet { isolation: isolate; width: 1104px; margin: 0 auto; background: #fbfcfa; padding: 56px; }
+.eyebrow { font-size: 16px; font-weight: 700; letter-spacing: 2px; color: #236b56; margin: 0 0 24px; }
+h1 { font-size: 64px; letter-spacing: -2px; line-height: 1.04; margin: 0; font-weight: 700; }
+.intro { color: #56665e; font-size: 24px; line-height: 1.5; max-width: 800px; margin: 24px 0 32px; }
+.flow { height: 896px; width: 992px; isolation: isolate; }
+.react-flow { background: transparent; }
+.step { width: 944px; height: 144px; display: flex; align-items: center; gap: 24px; padding: 24px 32px; border: 1px solid #d9e1da; border-radius: 16px; background: #f1f5f0; }
+.step-number { display: flex; flex: 0 0 56px; height: 56px; align-items: center; justify-content: center; color: #236b56; background: #e0eae1; border-radius: 12px; font-size: 24px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.step h2 { font-size: 29px; line-height: 1.2; margin: 0 0 8px; letter-spacing: -0.3px; }
+.step p { font-size: 23px; line-height: 1.4; margin: 0; color: #52635b; max-width: 744px; }
+.step-final { background: #e3eee7; border-color: #9fbeaa; }
+.step-final .step-number { background: #236b56; color: #f8fbf8; }
+.react-flow__handle { width: 1px; height: 1px; min-width: 1px; min-height: 1px; border: 0; opacity: 0; }
+.react-flow__attribution { font-size: 10px; background: transparent; right: 24px; }
+.react-flow__attribution a { color: #6d7c74; }
+.proof { margin-top: 40px; padding: 0 24px; }
+.proof .eyebrow { margin-bottom: 16px; }
+.proof h2 { font-size: 36px; line-height: 1.2; letter-spacing: -0.5px; margin: 0 0 24px; }
+.proof-facts { display: grid; grid-template-columns: 1fr 1fr 1.15fr; gap: 24px; }
+.proof-facts strong { font-size: 25px; display: block; line-height: 1.25; margin-bottom: 8px; white-space: nowrap; }
+.proof-facts span { font-size: 21px; line-height: 1.45; color: #56665e; }
+.evidence-note { font-size: 18px; color: #66756d; margin: 24px 0 0; }
+.daily { display: flex; align-items: flex-start; gap: 24px; border: 1px dashed #aabbaf; border-radius: 12px; padding: 24px; margin-top: 40px; }
+.next-label { font-size: 14px; white-space: nowrap; font-weight: 700; letter-spacing: 1px; padding: 8px 12px; background: #eaf0e8; border-radius: 4px; margin-top: 4px; }
+.daily h2 { font-size: 26px; line-height: 1.25; margin: 0 0 8px; }
+.daily p { color: #52635b; margin: 0; font-size: 22px; line-height: 1.5; }
+.daily .future-note { font-size: 18px; margin-top: 8px; color: #66756d; }
+footer { font-size: 18px; color: #66756d; margin: 32px 0 0 24px; }
+@media (max-width: 700px) { .toolbar { margin: 16px; padding: 0; font-size: 14px; } .sheet-wrap { padding-left: 0; padding-right: 0; } }
+@media (prefers-reduced-motion: reduce) { button { transition: none; } }

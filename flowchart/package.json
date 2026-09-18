@@ -1,0 +1,23 @@
+{
+  "name": "cxdemo-flowchart",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "export": "npm run build && node export.mjs"
+  },
+  "dependencies": {
+    "@xyflow/react": "12.11.6",
+    "html-to-image": "1.11.11",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "5.2.0",
+    "playwright": "1.63.0",
+    "vite": "7.3.6"
+  }
+}
