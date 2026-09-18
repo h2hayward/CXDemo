@@ -1,0 +1,47 @@
+# Candidate discovery. Queries are search seeds; responsibilities determine relevance.
+[discovery]
+queries = ["creative operations", "creative production", "creative effectiveness"]
+countries = ["us", "gb"]
+date_posted = "month"
+pages_per_query = 1
+max_jobs = 30
+max_accounts = 10
+
+[checks]
+# Use the discovered listing as the hiring signal. Website verification is optional.
+verify_employer = false
+max_job_age_days = 30
+max_description_chars = 20000
+meta_country = "ALL"
+ad_provider = "apify"
+ads_per_account = 25
+apify_max_charge_usd = 0.145
+apify_build = "0.0.378"
+people_per_account = 20
+recommended_people = 3
+
+# Optional named-account mode: list exact corporate domains here.
+# Empty means discover accounts from matching vacancies.
+[accounts]
+include_domains = []
+exclude_domains = []
+# Treat related domains as one account ONLY after checking ownership.
+[accounts.aliases]
+# "nike.com" = ["nike.com.hk"]
+
+# Explicitly reviewed corporate careers hosts can be supplied for hosted job boards.
+# Trust is scoped to exact hostname AND path prefix, never a whole multi-tenant service.
+[checks.trusted_careers]
+# "nike.com" = ["https://nike.wd1.myworkdayjobs.com/nke/"]
+
+[analysis]
+max_output_tokens = 1500
+
+# Optional operator-entered rates, used for planning, never silently assumed.
+# Include minimum purchases/subscriptions separately when budgeting a real pilot.
+[costs]
+jsearch_request_usd = 0.005
+# Apify per-run ceiling is in [checks]; no credit purchase is performed.
+# openai_input_per_million_usd = 0.0
+# openai_output_per_million_usd = 0.0
+# blitz_subscription_usd = 399.0

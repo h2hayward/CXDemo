@@ -1,0 +1,7 @@
+{
+  "provider": "ads",
+  "state": "fixture_replayed",
+  "synthetic": true,
+  "network_calls": 0,
+  "evidence": "evidence/ads-0003.json"
+}

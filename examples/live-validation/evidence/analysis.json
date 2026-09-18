@@ -1,0 +1,16 @@
+{
+  "note": "Original structured model answer; every supporting quotation checked against the listing text.",
+  "analysis": {
+    "decision": "relevant",
+    "signal": "creative_governance",
+    "company_kind": "advertiser",
+    "evidence_quotes": [
+      "Oversee the end-to-end creative production process, ensuring work is accurately briefed, tracked, quality checked and delivered to a high standard.",
+      "You will contribute to hands-on design, artwork creation, production and asset adaptation where capacity or business need requires",
+      "Coordinate production activity across online, social, CRM, print, campaign and in-store channels."
+    ],
+    "scope_quote": "Coordinate production activity across online, social, CRM, print, campaign and in-store channels.",
+    "reporting_line_quote": "",
+    "reason": "The role owns creative production workflow, quality checks and asset adaptation across multiple advertising and customer-facing channels, aligning with creative governance and standards oversight."
+  }
+}

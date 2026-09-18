@@ -1,0 +1,14 @@
+{
+  "status": "completed",
+  "output": [
+    {
+      "type": "message",
+      "content": [
+        {
+          "type": "output_text",
+          "text": "{\"decision\": \"not_relevant\", \"signal\": \"none\", \"company_kind\": \"advertiser\", \"evidence_quotes\": [], \"scope_quote\": \"\", \"reporting_line_quote\": \"\", \"reason\": \"This role concerns physical product design, not advertising asset governance or measurement.\"}"
+        }
+      ]
+    }
+  ]
+}

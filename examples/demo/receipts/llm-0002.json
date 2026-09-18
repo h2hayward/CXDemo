@@ -1,0 +1,7 @@
+{
+  "provider": "llm",
+  "state": "fixture_replayed",
+  "synthetic": true,
+  "network_calls": 0,
+  "evidence": "evidence/llm-0002.json"
+}

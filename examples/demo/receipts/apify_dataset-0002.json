@@ -1,0 +1,7 @@
+{
+  "provider": "apify_dataset",
+  "state": "fixture_replayed",
+  "synthetic": true,
+  "network_calls": 0,
+  "evidence": "evidence/apify_dataset-0002.json"
+}

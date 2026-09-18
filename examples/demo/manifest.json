@@ -1,0 +1,131 @@
+{
+  "version": "0.1.0",
+  "mode": "synthetic_demo",
+  "started_at": "2026-09-17T23:08:16.647141+00:00",
+  "evaluation_date": "2026-09-17T12:00:00+00:00",
+  "state": "complete",
+  "plan": {
+    "queries": [
+      {
+        "query": "creative operations",
+        "country": "us"
+      },
+      {
+        "query": "creative production",
+        "country": "us"
+      },
+      {
+        "query": "creative effectiveness",
+        "country": "us"
+      },
+      {
+        "query": "creative operations",
+        "country": "gb"
+      },
+      {
+        "query": "creative production",
+        "country": "gb"
+      },
+      {
+        "query": "creative effectiveness",
+        "country": "gb"
+      }
+    ],
+    "limits": {
+      "jsearch": 6,
+      "ads": 10,
+      "blitz": 20,
+      "llm": 30,
+      "public_web": 10,
+      "apify_status": 80,
+      "apify_dataset": 30
+    },
+    "max_jobs_reviewed": 30,
+    "max_accounts": 10,
+    "max_people_records": 200,
+    "meta_scope": "ALL",
+    "ad_provider": "apify",
+    "analysis_provider": "openai",
+    "verify_employer": false,
+    "ad_lookup": "corporate_page",
+    "max_ad_records": 250,
+    "known_variable_cost_estimates": {
+      "jsearch_max_usd": 0.03,
+      "apify_max_charge_usd": 1.45
+    },
+    "operator_supplied_rates": {
+      "jsearch_request_usd": 0.005
+    },
+    "pricing_note": "Apify run charges have a provider-enforced dollar ceiling. Other stages have call/record caps; confirm model rates and existing provider plans. No subscriptions or credits are purchased. Failed requests may be billed; no automatic retries.",
+    "llm_limits": {
+      "max_source_characters_per_call": 20000,
+      "max_output_tokens_per_call": 1500
+    },
+    "includes_sending": false
+  },
+  "config": {
+    "discovery": {
+      "queries": [
+        "creative operations",
+        "creative production",
+        "creative effectiveness"
+      ],
+      "countries": [
+        "us",
+        "gb"
+      ],
+      "date_posted": "month",
+      "pages_per_query": 1,
+      "max_jobs": 30,
+      "max_accounts": 10
+    },
+    "checks": {
+      "max_job_age_days": 30,
+      "max_description_chars": 20000,
+      "meta_country": "ALL",
+      "people_per_account": 20,
+      "recommended_people": 3,
+      "trusted_careers": {},
+      "ad_provider": "apify",
+      "ads_per_account": 25,
+      "apify_max_charge_usd": 0.145,
+      "apify_build": "0.0.378",
+      "facebook_pages": {
+        "harbour-demo.example": "https://www.facebook.com/synthetic-harbour-demo",
+        "meridian-demo.example": "https://www.facebook.com/synthetic-meridian-demo",
+        "unresolved-demo.example": "https://www.facebook.com/synthetic-unresolved-demo"
+      },
+      "verify_employer": false
+    },
+    "accounts": {
+      "include_domains": [],
+      "exclude_domains": [
+        "existing-demo.example"
+      ],
+      "aliases": {}
+    },
+    "analysis": {
+      "max_output_tokens": 1500
+    },
+    "costs": {
+      "jsearch_request_usd": 0.005
+    }
+  },
+  "network_calls": 0,
+  "notice": "All companies, people, ads and model responses are synthetic fixtures.",
+  "counts": {
+    "jsearch": 6,
+    "ads": 3,
+    "blitz": 4,
+    "llm": 4,
+    "public_web": 0,
+    "apify_status": 0,
+    "apify_dataset": 6
+  },
+  "finished_at": "2026-09-17T23:08:16.661562+00:00",
+  "outcome": {
+    "priority_review_accounts": 2,
+    "yield_status": "candidates_for_review",
+    "live_validation": "not_applicable_synthetic"
+  }
+}

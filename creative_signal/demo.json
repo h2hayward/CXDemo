@@ -1,0 +1,595 @@
+{
+  "notice": "All entities and model outputs are invented for testing. No live research.",
+  "clock": "2026-09-17T12:00:00+00:00",
+  "config": {
+    "discovery": {
+      "queries": [
+        "creative operations",
+        "creative production",
+        "creative effectiveness"
+      ],
+      "countries": [
+        "us",
+        "gb"
+      ],
+      "date_posted": "month",
+      "pages_per_query": 1,
+      "max_jobs": 30,
+      "max_accounts": 10
+    },
+    "checks": {
+      "max_job_age_days": 30,
+      "max_description_chars": 20000,
+      "meta_country": "ALL",
+      "people_per_account": 20,
+      "recommended_people": 3,
+      "trusted_careers": {},
+      "ad_provider": "apify",
+      "ads_per_account": 25,
+      "apify_max_charge_usd": 0.145,
+      "apify_build": "0.0.378",
+      "facebook_pages": {
+        "harbour-demo.example": "https://www.facebook.com/synthetic-harbour-demo",
+        "meridian-demo.example": "https://www.facebook.com/synthetic-meridian-demo",
+        "unresolved-demo.example": "https://www.facebook.com/synthetic-unresolved-demo"
+      },
+      "verify_employer": false
+    },
+    "accounts": {
+      "include_domains": [],
+      "exclude_domains": [
+        "existing-demo.example"
+      ],
+      "aliases": {}
+    },
+    "analysis": {
+      "max_output_tokens": 1500
+    },
+    "costs": {
+      "jsearch_request_usd": 0.005
+    }
+  },
+  "jobs": [
+    {
+      "job_id": "1",
+      "employer_name": "Demo Harbour Brands",
+      "employer_website": "https://harbour-demo.example",
+      "job_title": "Creative Operations Manager",
+      "job_description": "We are Demo Harbour Brands, a consumer brand advertising our own products. Own brand standards and channel specifications for paid social advertising assets. Coordinate digital advertising across three markets, our brand teams and external agencies. Reports to the Director of Creative Operations.",
+      "job_country": "GB",
+      "job_location": "London, UK",
+      "job_posted_at_datetime_utc": "2026-09-12T10:00:00Z",
+      "job_apply_link": "https://harbour-demo.example/careers/1",
+      "apply_options": [
+        {
+          "apply_link": "https://harbour-demo.example/careers/1",
+          "is_direct": true
+        }
+      ]
+    },
+    {
+      "job_id": "syndicated-copy",
+      "employer_name": "Demo Harbour Brands",
+      "employer_website": "https://harbour-demo.example",
+      "job_title": "Creative Operations Manager",
+      "job_description": "We are Demo Harbour Brands, a consumer brand advertising our own products. Own brand standards and channel specifications for paid social advertising assets. Coordinate digital advertising across three markets, our brand teams and external agencies. Reports to the Director of Creative Operations.",
+      "job_country": "GB",
+      "job_location": "London, UK",
+      "job_posted_at_datetime_utc": "2026-09-12T10:00:00Z",
+      "job_apply_link": "https://harbour-demo.example/careers/1?utm_source=board",
+      "apply_options": [
+        {
+          "apply_link": "https://harbour-demo.example/careers/1",
+          "is_direct": true
+        }
+      ]
+    },
+    {
+      "job_id": "3",
+      "employer_name": "Demo Meridian Consumer",
+      "employer_website": "https://meridian-demo.example",
+      "job_title": "Creative Effectiveness Lead",
+      "job_description": "We are Demo Meridian Consumer, a consumer brand advertising our own products. Measure creative effectiveness and connect advertising asset attributes with media performance. Coordinate digital advertising across three markets, our brand teams and external agencies. Reports to the Head of Marketing Measurement.",
+      "job_country": "GB",
+      "job_location": "London, UK",
+      "job_posted_at_datetime_utc": "2026-09-12T10:00:00Z",
+      "job_apply_link": "https://meridian-demo.example/careers/3",
+      "apply_options": [
+        {
+          "apply_link": "https://meridian-demo.example/careers/3",
+          "is_direct": true
+        }
+      ]
+    },
+    {
+      "job_id": "4",
+      "employer_name": "Demo Footwear Studio",
+      "employer_website": "https://footwear-demo.example",
+      "job_title": "Creative Director, Footwear",
+      "job_description": "We are Demo Footwear Studio, a consumer brand advertising our own products. Design footwear, apparel materials and physical product collections. Coordinate digital advertising across three markets, our brand teams and external agencies. Reports to the Director of Creative Operations.",
+      "job_country": "GB",
+      "job_location": "London, UK",
+      "job_posted_at_datetime_utc": "2026-09-12T10:00:00Z",
+      "job_apply_link": "https://footwear-demo.example/careers/4",
+      "apply_options": [
+        {
+          "apply_link": "https://footwear-demo.example/careers/4",
+          "is_direct": true
+        }
+      ]
+    },
+    {
+      "job_id": "5",
+      "employer_name": "Demo Closed Goods",
+      "employer_website": "https://closed-demo.example",
+      "job_title": "Creative Production Manager",
+      "job_description": "We are Demo Closed Goods, a consumer brand advertising our own products. Own brand standards and channel specifications for paid social advertising assets. Coordinate digital advertising across three markets, our brand teams and external agencies. Reports to the Director of Creative Operations.",
+      "job_country": "GB",
+      "job_location": "London, UK",
+      "job_posted_at_datetime_utc": "2026-07-12T10:00:00Z",
+      "job_apply_link": "https://closed-demo.example/careers/5",
+      "apply_options": [
+        {
+          "apply_link": "https://closed-demo.example/careers/5",
+          "is_direct": true
+        }
+      ]
+    },
+    {
+      "job_id": "6",
+      "employer_name": "Demo Unresolved Ads",
+      "employer_website": "https://unresolved-demo.example",
+      "job_title": "Brand Creative Operations Lead",
+      "job_description": "We are Demo Unresolved Ads, a consumer brand advertising our own products. Own brand standards and channel specifications for paid social advertising assets. Coordinate digital advertising across three markets, our brand teams and external agencies. Reports to the Director of Creative Operations.",
+      "job_country": "GB",
+      "job_location": "London, UK",
+      "job_posted_at_datetime_utc": "2026-09-12T10:00:00Z",
+      "job_apply_link": "https://unresolved-demo.example/careers/6",
+      "apply_options": [
+        {
+          "apply_link": "https://unresolved-demo.example/careers/6",
+          "is_direct": true
+        }
+      ]
+    },
+    {
+      "job_id": "7",
+      "employer_name": "Demo Existing Customer",
+      "employer_website": "https://existing-demo.example",
+      "job_title": "Creative Operations Manager",
+      "job_description": "We are Demo Existing Customer, a consumer brand advertising our own products. Own brand standards and channel specifications for paid social advertising assets. Coordinate digital advertising across three markets, our brand teams and external agencies. Reports to the Director of Creative Operations.",
+      "job_country": "GB",
+      "job_location": "London, UK",
+      "job_posted_at_datetime_utc": "2026-09-12T10:00:00Z",
+      "job_apply_link": "https://existing-demo.example/careers/7",
+      "apply_options": [
+        {
+          "apply_link": "https://existing-demo.example/careers/7",
+          "is_direct": true
+        }
+      ]
+    },
+    {
+      "job_id": "8",
+      "employer_name": "Demo Missing Domain",
+      "employer_website": null,
+      "job_title": "Creative Production Lead",
+      "job_description": "We are Demo Missing Domain, a consumer brand advertising our own products. Own brand standards and channel specifications for paid social advertising assets. Coordinate digital advertising across three markets, our brand teams and external agencies. Reports to the Director of Creative Operations.",
+      "job_country": "GB",
+      "job_location": "London, UK",
+      "job_posted_at_datetime_utc": "2026-09-12T10:00:00Z",
+      "job_apply_link": "https://missing-demo.example/careers/8",
+      "apply_options": [
+        {
+          "apply_link": "https://missing-demo.example/careers/8",
+          "is_direct": true
+        }
+      ]
+    }
+  ],
+  "analyses": {
+    "Demo Harbour Brands": {
+      "decision": "relevant",
+      "signal": "creative_governance",
+      "company_kind": "advertiser",
+      "evidence_quotes": [
+        "Own brand standards and channel specifications for paid social advertising assets."
+      ],
+      "scope_quote": "Coordinate digital advertising across three markets, our brand teams and external agencies.",
+      "reporting_line_quote": "Reports to the Director of Creative Operations.",
+      "reason": "Advertising responsibilities and coordination scope overlap with defined creative checks or measurement."
+    },
+    "Demo Meridian Consumer": {
+      "decision": "relevant",
+      "signal": "creative_measurement",
+      "company_kind": "advertiser",
+      "evidence_quotes": [
+        "Measure creative effectiveness and connect advertising asset attributes with media performance."
+      ],
+      "scope_quote": "Coordinate digital advertising across three markets, our brand teams and external agencies.",
+      "reporting_line_quote": "Reports to the Head of Marketing Measurement.",
+      "reason": "Advertising responsibilities and coordination scope overlap with defined creative checks or measurement."
+    },
+    "Demo Footwear Studio": {
+      "decision": "not_relevant",
+      "signal": "none",
+      "company_kind": "advertiser",
+      "evidence_quotes": [],
+      "scope_quote": "",
+      "reporting_line_quote": "",
+      "reason": "This role concerns physical product design, not advertising asset governance or measurement."
+    },
+    "Demo Closed Goods": {
+      "decision": "relevant",
+      "signal": "creative_governance",
+      "company_kind": "advertiser",
+      "evidence_quotes": [
+        "Own brand standards and channel specifications for paid social advertising assets."
+      ],
+      "scope_quote": "Coordinate digital advertising across three markets, our brand teams and external agencies.",
+      "reporting_line_quote": "Reports to the Director of Creative Operations.",
+      "reason": "Advertising responsibilities and coordination scope overlap with defined creative checks or measurement."
+    },
+    "Demo Unresolved Ads": {
+      "decision": "relevant",
+      "signal": "creative_governance",
+      "company_kind": "advertiser",
+      "evidence_quotes": [
+        "Own brand standards and channel specifications for paid social advertising assets."
+      ],
+      "scope_quote": "Coordinate digital advertising across three markets, our brand teams and external agencies.",
+      "reporting_line_quote": "Reports to the Director of Creative Operations.",
+      "reason": "Advertising responsibilities and coordination scope overlap with defined creative checks or measurement."
+    },
+    "Demo Existing Customer": {
+      "decision": "relevant",
+      "signal": "creative_governance",
+      "company_kind": "advertiser",
+      "evidence_quotes": [
+        "Own brand standards and channel specifications for paid social advertising assets."
+      ],
+      "scope_quote": "Coordinate digital advertising across three markets, our brand teams and external agencies.",
+      "reporting_line_quote": "Reports to the Director of Creative Operations.",
+      "reason": "Advertising responsibilities and coordination scope overlap with defined creative checks or measurement."
+    },
+    "Demo Missing Domain": {
+      "decision": "relevant",
+      "signal": "creative_governance",
+      "company_kind": "advertiser",
+      "evidence_quotes": [
+        "Own brand standards and channel specifications for paid social advertising assets."
+      ],
+      "scope_quote": "Coordinate digital advertising across three markets, our brand teams and external agencies.",
+      "reporting_line_quote": "Reports to the Director of Creative Operations.",
+      "reason": "Advertising responsibilities and coordination scope overlap with defined creative checks or measurement."
+    }
+  },
+  "pages": {
+    "https://harbour-demo.example/careers/1": "<html><script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"JobPosting\", \"title\": \"Creative Operations Manager\", \"description\": \"We are Demo Harbour Brands, a consumer brand advertising our own products. Own brand standards and channel specifications for paid social advertising assets. Coordinate digital advertising across three markets, our brand teams and external agencies. Reports to the Director of Creative Operations.\", \"datePosted\": \"2026-09-12\", \"validThrough\": \"2026-10-15\", \"directApply\": true}</script><body><h1>Creative Operations Manager</h1><p>We are Demo Harbour Brands, a consumer brand advertising our own products. Own brand standards and channel specifications for paid social advertising assets. Coordinate digital advertising across three markets, our brand teams and external agencies. Reports to the Director of Creative Operations.</p><a href=\"/apply\">Apply</a></body></html>",
+    "https://meridian-demo.example/careers/3": "<html><script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"JobPosting\", \"title\": \"Creative Effectiveness Lead\", \"description\": \"We are Demo Meridian Consumer, a consumer brand advertising our own products. Measure creative effectiveness and connect advertising asset attributes with media performance. Coordinate digital advertising across three markets, our brand teams and external agencies. Reports to the Head of Marketing Measurement.\", \"datePosted\": \"2026-09-12\", \"validThrough\": \"2026-10-15\", \"directApply\": true}</script><body><h1>Creative Effectiveness Lead</h1><p>We are Demo Meridian Consumer, a consumer brand advertising our own products. Measure creative effectiveness and connect advertising asset attributes with media performance. Coordinate digital advertising across three markets, our brand teams and external agencies. Reports to the Head of Marketing Measurement.</p><a href=\"/apply\">Apply</a></body></html>",
+    "https://footwear-demo.example/careers/4": "<html><script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"JobPosting\", \"title\": \"Creative Director, Footwear\", \"description\": \"We are Demo Footwear Studio, a consumer brand advertising our own products. Design footwear, apparel materials and physical product collections. Coordinate digital advertising across three markets, our brand teams and external agencies. Reports to the Director of Creative Operations.\", \"datePosted\": \"2026-09-12\", \"validThrough\": \"2026-10-15\", \"directApply\": true}</script><body><h1>Creative Director, Footwear</h1><p>We are Demo Footwear Studio, a consumer brand advertising our own products. Design footwear, apparel materials and physical product collections. Coordinate digital advertising across three markets, our brand teams and external agencies. Reports to the Director of Creative Operations.</p><a href=\"/apply\">Apply</a></body></html>",
+    "https://closed-demo.example/careers/5": "<html><script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"JobPosting\", \"title\": \"Creative Production Manager\", \"description\": \"We are Demo Closed Goods, a consumer brand advertising our own products. Own brand standards and channel specifications for paid social advertising assets. Coordinate digital advertising across three markets, our brand teams and external agencies. Reports to the Director of Creative Operations.\", \"datePosted\": \"2026-09-12\", \"validThrough\": \"2026-09-01\", \"directApply\": true}</script><body><h1>Creative Production Manager</h1><p>We are Demo Closed Goods, a consumer brand advertising our own products. Own brand standards and channel specifications for paid social advertising assets. Coordinate digital advertising across three markets, our brand teams and external agencies. Reports to the Director of Creative Operations.</p><a href=\"/apply\">Apply</a></body></html>",
+    "https://unresolved-demo.example/careers/6": "<html><script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"JobPosting\", \"title\": \"Brand Creative Operations Lead\", \"description\": \"We are Demo Unresolved Ads, a consumer brand advertising our own products. Own brand standards and channel specifications for paid social advertising assets. Coordinate digital advertising across three markets, our brand teams and external agencies. Reports to the Director of Creative Operations.\", \"datePosted\": \"2026-09-12\", \"validThrough\": \"2026-10-15\", \"directApply\": true}</script><body><h1>Brand Creative Operations Lead</h1><p>We are Demo Unresolved Ads, a consumer brand advertising our own products. Own brand standards and channel specifications for paid social advertising assets. Coordinate digital advertising across three markets, our brand teams and external agencies. Reports to the Director of Creative Operations.</p><a href=\"/apply\">Apply</a></body></html>",
+    "https://existing-demo.example/careers/7": "<html><script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"JobPosting\", \"title\": \"Creative Operations Manager\", \"description\": \"We are Demo Existing Customer, a consumer brand advertising our own products. Own brand standards and channel specifications for paid social advertising assets. Coordinate digital advertising across three markets, our brand teams and external agencies. Reports to the Director of Creative Operations.\", \"datePosted\": \"2026-09-12\", \"validThrough\": \"2026-10-15\", \"directApply\": true}</script><body><h1>Creative Operations Manager</h1><p>We are Demo Existing Customer, a consumer brand advertising our own products. Own brand standards and channel specifications for paid social advertising assets. Coordinate digital advertising across three markets, our brand teams and external agencies. Reports to the Director of Creative Operations.</p><a href=\"/apply\">Apply</a></body></html>",
+    "https://missing-demo.example/careers/8": "<html><script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"JobPosting\", \"title\": \"Creative Production Lead\", \"description\": \"We are Demo Missing Domain, a consumer brand advertising our own products. Own brand standards and channel specifications for paid social advertising assets. Coordinate digital advertising across three markets, our brand teams and external agencies. Reports to the Director of Creative Operations.\", \"datePosted\": \"2026-09-12\", \"validThrough\": \"2026-10-15\", \"directApply\": true}</script><body><h1>Creative Production Lead</h1><p>We are Demo Missing Domain, a consumer brand advertising our own products. Own brand standards and channel specifications for paid social advertising assets. Coordinate digital advertising across three markets, our brand teams and external agencies. Reports to the Director of Creative Operations.</p><a href=\"/apply\">Apply</a></body></html>"
+  },
+  "ads": {
+    "harbour-demo.example": {
+      "page_id": "999000",
+      "country_code": "ALL",
+      "active_status": "active",
+      "number_of_ads": 32,
+      "is_result_complete": false,
+      "continuation_token": "synthetic-more-records",
+      "results": [
+        [
+          {
+            "ad_archive_id": "9990001",
+            "is_active": true,
+            "page_id": "999000",
+            "snapshot": {
+              "page_name": "Synthetic demo brand",
+              "cards": [
+                {
+                  "link_url": "https://harbour-demo.example/products"
+                }
+              ]
+            }
+          },
+          {
+            "ad_archive_id": "9990002",
+            "is_active": true,
+            "page_id": "999000",
+            "snapshot": {
+              "page_name": "Synthetic demo brand",
+              "cards": [
+                {
+                  "link_url": "https://harbour-demo.example/products"
+                }
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "ad_archive_id": "9990001",
+            "is_active": true,
+            "page_id": "999000",
+            "snapshot": {
+              "page_name": "Synthetic demo brand",
+              "cards": [
+                {
+                  "link_url": "https://harbour-demo.example/products"
+                }
+              ]
+            }
+          },
+          {
+            "ad_archive_id": "9990003",
+            "is_active": true,
+            "page_id": "999000",
+            "snapshot": {
+              "page_name": "Synthetic demo brand",
+              "cards": [
+                {
+                  "link_url": "https://unrelated-demo.example/products"
+                }
+              ]
+            }
+          },
+          {
+            "ad_archive_id": "9990004",
+            "is_active": false,
+            "page_id": "999000",
+            "snapshot": {
+              "page_name": "Synthetic demo brand",
+              "cards": [
+                {
+                  "link_url": "https://harbour-demo.example/products"
+                }
+              ]
+            }
+          }
+        ]
+      ]
+    },
+    "meridian-demo.example": {
+      "page_id": "999000",
+      "country_code": "ALL",
+      "active_status": "active",
+      "number_of_ads": 32,
+      "is_result_complete": false,
+      "continuation_token": "synthetic-more-records",
+      "results": [
+        [
+          {
+            "ad_archive_id": "9990101",
+            "is_active": true,
+            "page_id": "999000",
+            "snapshot": {
+              "page_name": "Synthetic demo brand",
+              "cards": [
+                {
+                  "link_url": "https://meridian-demo.example/products"
+                }
+              ]
+            }
+          },
+          {
+            "ad_archive_id": "9990102",
+            "is_active": true,
+            "page_id": "999000",
+            "snapshot": {
+              "page_name": "Synthetic demo brand",
+              "cards": [
+                {
+                  "link_url": "https://meridian-demo.example/products"
+                }
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "ad_archive_id": "9990101",
+            "is_active": true,
+            "page_id": "999000",
+            "snapshot": {
+              "page_name": "Synthetic demo brand",
+              "cards": [
+                {
+                  "link_url": "https://meridian-demo.example/products"
+                }
+              ]
+            }
+          },
+          {
+            "ad_archive_id": "9990103",
+            "is_active": true,
+            "page_id": "999000",
+            "snapshot": {
+              "page_name": "Synthetic demo brand",
+              "cards": [
+                {
+                  "link_url": "https://unrelated-demo.example/products"
+                }
+              ]
+            }
+          },
+          {
+            "ad_archive_id": "9990104",
+            "is_active": false,
+            "page_id": "999000",
+            "snapshot": {
+              "page_name": "Synthetic demo brand",
+              "cards": [
+                {
+                  "link_url": "https://meridian-demo.example/products"
+                }
+              ]
+            }
+          }
+        ]
+      ]
+    },
+    "unresolved-demo.example": {
+      "_http_status": 204
+    }
+  },
+  "people": {
+    "https://www.linkedin.com/company/synthetic-harbour-demo": {
+      "results": [
+        {
+          "full_name": "Demo Alex Rowan",
+          "linkedin_url": "https://www.linkedin.com/in/synthetic-demo-demo-alex-rowan",
+          "location": {
+            "country_code": "GB"
+          },
+          "experiences": [
+            {
+              "company_domain": "harbour-demo.example",
+              "job_title": "Director of Creative Operations",
+              "job_is_current": true,
+              "job_end_date": null,
+              "job_location": {
+                "country_code": "GB"
+              }
+            }
+          ]
+        },
+        {
+          "full_name": "Demo Sam Ellis",
+          "linkedin_url": "https://www.linkedin.com/in/synthetic-demo-demo-sam-ellis",
+          "location": {
+            "country_code": "GB"
+          },
+          "experiences": [
+            {
+              "company_domain": "harbour-demo.example",
+              "job_title": "Head of Marketing Measurement",
+              "job_is_current": true,
+              "job_end_date": null,
+              "job_location": {
+                "country_code": "GB"
+              }
+            }
+          ]
+        },
+        {
+          "full_name": "Demo Former Owner",
+          "linkedin_url": "https://www.linkedin.com/in/synthetic-demo-demo-former-owner",
+          "location": {
+            "country_code": "GB"
+          },
+          "experiences": [
+            {
+              "company_domain": "harbour-demo.example",
+              "job_title": "VP Creative",
+              "job_is_current": false,
+              "job_end_date": "2025-01-01",
+              "job_location": {
+                "country_code": "GB"
+              }
+            }
+          ]
+        },
+        {
+          "full_name": "Demo Wrong Company",
+          "linkedin_url": "https://www.linkedin.com/in/synthetic-demo-demo-wrong-company",
+          "location": {
+            "country_code": "GB"
+          },
+          "experiences": [
+            {
+              "company_domain": "unrelated-demo.example",
+              "job_title": "Head of Creative",
+              "job_is_current": true,
+              "job_end_date": null,
+              "job_location": {
+                "country_code": "GB"
+              }
+            }
+          ]
+        }
+      ],
+      "total_pages": 2
+    },
+    "https://www.linkedin.com/company/synthetic-meridian-demo": {
+      "results": [
+        {
+          "full_name": "Demo Casey Morgan",
+          "linkedin_url": "https://www.linkedin.com/in/synthetic-demo-casey-morgan",
+          "location": {
+            "country_code": "GB"
+          },
+          "experiences": [
+            {
+              "company_domain": "meridian-demo.example",
+              "job_title": "Director of Creative Operations",
+              "job_is_current": true,
+              "job_end_date": null,
+              "job_location": {
+                "country_code": "GB"
+              }
+            }
+          ]
+        },
+        {
+          "full_name": "Demo Taylor Vale",
+          "linkedin_url": "https://www.linkedin.com/in/synthetic-demo-taylor-vale",
+          "location": {
+            "country_code": "GB"
+          },
+          "experiences": [
+            {
+              "company_domain": "meridian-demo.example",
+              "job_title": "Head of Marketing Measurement",
+              "job_is_current": true,
+              "job_end_date": null,
+              "job_location": {
+                "country_code": "GB"
+              }
+            }
+          ]
+        },
+        {
+          "full_name": "Demo Former Meridian Owner",
+          "linkedin_url": "https://www.linkedin.com/in/synthetic-demo-former-meridian-owner",
+          "location": {
+            "country_code": "GB"
+          },
+          "experiences": [
+            {
+              "company_domain": "meridian-demo.example",
+              "job_title": "VP Creative",
+              "job_is_current": false,
+              "job_end_date": "2025-01-01",
+              "job_location": {
+                "country_code": "GB"
+              }
+            }
+          ]
+        },
+        {
+          "full_name": "Demo Wrong Meridian Company",
+          "linkedin_url": "https://www.linkedin.com/in/synthetic-demo-wrong-meridian-company",
+          "location": {
+            "country_code": "GB"
+          },
+          "experiences": [
+            {
+              "company_domain": "unrelated-demo.example",
+              "job_title": "Head of Creative",
+              "job_is_current": true,
+              "job_end_date": null,
+              "job_location": {
+                "country_code": "GB"
+              }
+            }
+          ]
+        }
+      ],
+      "total_pages": 2
+    }
+  }
+}

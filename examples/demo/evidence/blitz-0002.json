@@ -1,0 +1,77 @@
+{
+  "results": [
+    {
+      "full_name": "Demo Alex Rowan",
+      "linkedin_url": "https://www.linkedin.com/in/synthetic-demo-demo-alex-rowan",
+      "location": {
+        "country_code": "GB"
+      },
+      "experiences": [
+        {
+          "company_domain": "harbour-demo.example",
+          "job_title": "Director of Creative Operations",
+          "job_is_current": true,
+          "job_end_date": null,
+          "job_location": {
+            "country_code": "GB"
+          }
+        }
+      ]
+    },
+    {
+      "full_name": "Demo Sam Ellis",
+      "linkedin_url": "https://www.linkedin.com/in/synthetic-demo-demo-sam-ellis",
+      "location": {
+        "country_code": "GB"
+      },
+      "experiences": [
+        {
+          "company_domain": "harbour-demo.example",
+          "job_title": "Head of Marketing Measurement",
+          "job_is_current": true,
+          "job_end_date": null,
+          "job_location": {
+            "country_code": "GB"
+          }
+        }
+      ]
+    },
+    {
+      "full_name": "Demo Former Owner",
+      "linkedin_url": "https://www.linkedin.com/in/synthetic-demo-demo-former-owner",
+      "location": {
+        "country_code": "GB"
+      },
+      "experiences": [
+        {
+          "company_domain": "harbour-demo.example",
+          "job_title": "VP Creative",
+          "job_is_current": false,
+          "job_end_date": "2025-01-01",
+          "job_location": {
+            "country_code": "GB"
+          }
+        }
+      ]
+    },
+    {
+      "full_name": "Demo Wrong Company",
+      "linkedin_url": "https://www.linkedin.com/in/synthetic-demo-demo-wrong-company",
+      "location": {
+        "country_code": "GB"
+      },
+      "experiences": [
+        {
+          "company_domain": "unrelated-demo.example",
+          "job_title": "Head of Creative",
+          "job_is_current": true,
+          "job_end_date": null,
+          "job_location": {
+            "country_code": "GB"
+          }
+        }
+      ]
+    }
+  ],
+  "total_pages": 2
+}

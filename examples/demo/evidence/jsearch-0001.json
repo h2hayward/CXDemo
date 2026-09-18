@@ -1,0 +1,143 @@
+{
+  "status": "OK",
+  "data": {
+    "jobs": [
+      {
+        "job_id": "1",
+        "employer_name": "Demo Harbour Brands",
+        "employer_website": "https://harbour-demo.example",
+        "job_title": "Creative Operations Manager",
+        "job_description": "We are Demo Harbour Brands, a consumer brand advertising our own products. Own brand standards and channel specifications for paid social advertising assets. Coordinate digital advertising across three markets, our brand teams and external agencies. Reports to the Director of Creative Operations.",
+        "job_country": "GB",
+        "job_location": "London, UK",
+        "job_posted_at_datetime_utc": "2026-09-12T10:00:00Z",
+        "job_apply_link": "https://harbour-demo.example/careers/1",
+        "apply_options": [
+          {
+            "apply_link": "https://harbour-demo.example/careers/1",
+            "is_direct": true
+          }
+        ]
+      },
+      {
+        "job_id": "syndicated-copy",
+        "employer_name": "Demo Harbour Brands",
+        "employer_website": "https://harbour-demo.example",
+        "job_title": "Creative Operations Manager",
+        "job_description": "We are Demo Harbour Brands, a consumer brand advertising our own products. Own brand standards and channel specifications for paid social advertising assets. Coordinate digital advertising across three markets, our brand teams and external agencies. Reports to the Director of Creative Operations.",
+        "job_country": "GB",
+        "job_location": "London, UK",
+        "job_posted_at_datetime_utc": "2026-09-12T10:00:00Z",
+        "job_apply_link": "https://harbour-demo.example/careers/1?utm_source=board",
+        "apply_options": [
+          {
+            "apply_link": "https://harbour-demo.example/careers/1",
+            "is_direct": true
+          }
+        ]
+      },
+      {
+        "job_id": "3",
+        "employer_name": "Demo Meridian Consumer",
+        "employer_website": "https://meridian-demo.example",
+        "job_title": "Creative Effectiveness Lead",
+        "job_description": "We are Demo Meridian Consumer, a consumer brand advertising our own products. Measure creative effectiveness and connect advertising asset attributes with media performance. Coordinate digital advertising across three markets, our brand teams and external agencies. Reports to the Head of Marketing Measurement.",
+        "job_country": "GB",
+        "job_location": "London, UK",
+        "job_posted_at_datetime_utc": "2026-09-12T10:00:00Z",
+        "job_apply_link": "https://meridian-demo.example/careers/3",
+        "apply_options": [
+          {
+            "apply_link": "https://meridian-demo.example/careers/3",
+            "is_direct": true
+          }
+        ]
+      },
+      {
+        "job_id": "4",
+        "employer_name": "Demo Footwear Studio",
+        "employer_website": "https://footwear-demo.example",
+        "job_title": "Creative Director, Footwear",
+        "job_description": "We are Demo Footwear Studio, a consumer brand advertising our own products. Design footwear, apparel materials and physical product collections. Coordinate digital advertising across three markets, our brand teams and external agencies. Reports to the Director of Creative Operations.",
+        "job_country": "GB",
+        "job_location": "London, UK",
+        "job_posted_at_datetime_utc": "2026-09-12T10:00:00Z",
+        "job_apply_link": "https://footwear-demo.example/careers/4",
+        "apply_options": [
+          {
+            "apply_link": "https://footwear-demo.example/careers/4",
+            "is_direct": true
+          }
+        ]
+      },
+      {
+        "job_id": "5",
+        "employer_name": "Demo Closed Goods",
+        "employer_website": "https://closed-demo.example",
+        "job_title": "Creative Production Manager",
+        "job_description": "We are Demo Closed Goods, a consumer brand advertising our own products. Own brand standards and channel specifications for paid social advertising assets. Coordinate digital advertising across three markets, our brand teams and external agencies. Reports to the Director of Creative Operations.",
+        "job_country": "GB",
+        "job_location": "London, UK",
+        "job_posted_at_datetime_utc": "2026-07-12T10:00:00Z",
+        "job_apply_link": "https://closed-demo.example/careers/5",
+        "apply_options": [
+          {
+            "apply_link": "https://closed-demo.example/careers/5",
+            "is_direct": true
+          }
+        ]
+      },
+      {
+        "job_id": "6",
+        "employer_name": "Demo Unresolved Ads",
+        "employer_website": "https://unresolved-demo.example",
+        "job_title": "Brand Creative Operations Lead",
+        "job_description": "We are Demo Unresolved Ads, a consumer brand advertising our own products. Own brand standards and channel specifications for paid social advertising assets. Coordinate digital advertising across three markets, our brand teams and external agencies. Reports to the Director of Creative Operations.",
+        "job_country": "GB",
+        "job_location": "London, UK",
+        "job_posted_at_datetime_utc": "2026-09-12T10:00:00Z",
+        "job_apply_link": "https://unresolved-demo.example/careers/6",
+        "apply_options": [
+          {
+            "apply_link": "https://unresolved-demo.example/careers/6",
+            "is_direct": true
+          }
+        ]
+      },
+      {
+        "job_id": "7",
+        "employer_name": "Demo Existing Customer",
+        "employer_website": "https://existing-demo.example",
+        "job_title": "Creative Operations Manager",
+        "job_description": "We are Demo Existing Customer, a consumer brand advertising our own products. Own brand standards and channel specifications for paid social advertising assets. Coordinate digital advertising across three markets, our brand teams and external agencies. Reports to the Director of Creative Operations.",
+        "job_country": "GB",
+        "job_location": "London, UK",
+        "job_posted_at_datetime_utc": "2026-09-12T10:00:00Z",
+        "job_apply_link": "https://existing-demo.example/careers/7",
+        "apply_options": [
+          {
+            "apply_link": "https://existing-demo.example/careers/7",
+            "is_direct": true
+          }
+        ]
+      },
+      {
+        "job_id": "8",
+        "employer_name": "Demo Missing Domain",
+        "employer_website": null,
+        "job_title": "Creative Production Lead",
+        "job_description": "We are Demo Missing Domain, a consumer brand advertising our own products. Own brand standards and channel specifications for paid social advertising assets. Coordinate digital advertising across three markets, our brand teams and external agencies. Reports to the Director of Creative Operations.",
+        "job_country": "GB",
+        "job_location": "London, UK",
+        "job_posted_at_datetime_utc": "2026-09-12T10:00:00Z",
+        "job_apply_link": "https://missing-demo.example/careers/8",
+        "apply_options": [
+          {
+            "apply_link": "https://missing-demo.example/careers/8",
+            "is_direct": true
+          }
+        ]
+      }
+    ]
+  }
+}

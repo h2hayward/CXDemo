@@ -1,0 +1,77 @@
+{
+  "results": [
+    {
+      "full_name": "Demo Casey Morgan",
+      "linkedin_url": "https://www.linkedin.com/in/synthetic-demo-casey-morgan",
+      "location": {
+        "country_code": "GB"
+      },
+      "experiences": [
+        {
+          "company_domain": "meridian-demo.example",
+          "job_title": "Director of Creative Operations",
+          "job_is_current": true,
+          "job_end_date": null,
+          "job_location": {
+            "country_code": "GB"
+          }
+        }
+      ]
+    },
+    {
+      "full_name": "Demo Taylor Vale",
+      "linkedin_url": "https://www.linkedin.com/in/synthetic-demo-taylor-vale",
+      "location": {
+        "country_code": "GB"
+      },
+      "experiences": [
+        {
+          "company_domain": "meridian-demo.example",
+          "job_title": "Head of Marketing Measurement",
+          "job_is_current": true,
+          "job_end_date": null,
+          "job_location": {
+            "country_code": "GB"
+          }
+        }
+      ]
+    },
+    {
+      "full_name": "Demo Former Meridian Owner",
+      "linkedin_url": "https://www.linkedin.com/in/synthetic-demo-former-meridian-owner",
+      "location": {
+        "country_code": "GB"
+      },
+      "experiences": [
+        {
+          "company_domain": "meridian-demo.example",
+          "job_title": "VP Creative",
+          "job_is_current": false,
+          "job_end_date": "2025-01-01",
+          "job_location": {
+            "country_code": "GB"
+          }
+        }
+      ]
+    },
+    {
+      "full_name": "Demo Wrong Meridian Company",
+      "linkedin_url": "https://www.linkedin.com/in/synthetic-demo-wrong-meridian-company",
+      "location": {
+        "country_code": "GB"
+      },
+      "experiences": [
+        {
+          "company_domain": "unrelated-demo.example",
+          "job_title": "Head of Creative",
+          "job_is_current": true,
+          "job_end_date": null,
+          "job_location": {
+            "country_code": "GB"
+          }
+        }
+      ]
+    }
+  ],
+  "total_pages": 2
+}

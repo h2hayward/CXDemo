@@ -1,0 +1,7 @@
+{
+  "provider": "blitz",
+  "state": "fixture_replayed",
+  "synthetic": true,
+  "network_calls": 0,
+  "evidence": "evidence/blitz-0001.json"
+}

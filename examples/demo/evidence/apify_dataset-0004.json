@@ -1,0 +1,77 @@
+[
+  {
+    "adArchiveID": "9990101",
+    "pageID": "999000",
+    "isActive": true,
+    "pageName": "Synthetic demo brand",
+    "snapshot": {
+      "pageProfileUri": "https://www.facebook.com/synthetic-meridian-demo",
+      "linkUrl": null,
+      "cards": [
+        {
+          "linkUrl": "https://meridian-demo.example/products"
+        }
+      ]
+    }
+  },
+  {
+    "adArchiveID": "9990102",
+    "pageID": "999000",
+    "isActive": true,
+    "pageName": "Synthetic demo brand",
+    "snapshot": {
+      "pageProfileUri": "https://www.facebook.com/synthetic-meridian-demo",
+      "linkUrl": null,
+      "cards": [
+        {
+          "linkUrl": "https://meridian-demo.example/products"
+        }
+      ]
+    }
+  },
+  {
+    "adArchiveID": "9990101",
+    "pageID": "999000",
+    "isActive": true,
+    "pageName": "Synthetic demo brand",
+    "snapshot": {
+      "pageProfileUri": "https://www.facebook.com/synthetic-meridian-demo",
+      "linkUrl": null,
+      "cards": [
+        {
+          "linkUrl": "https://meridian-demo.example/products"
+        }
+      ]
+    }
+  },
+  {
+    "adArchiveID": "9990103",
+    "pageID": "999000",
+    "isActive": true,
+    "pageName": "Synthetic demo brand",
+    "snapshot": {
+      "pageProfileUri": "https://www.facebook.com/synthetic-meridian-demo",
+      "linkUrl": null,
+      "cards": [
+        {
+          "linkUrl": "https://unrelated-demo.example/products"
+        }
+      ]
+    }
+  },
+  {
+    "adArchiveID": "9990104",
+    "pageID": "999000",
+    "isActive": false,
+    "pageName": "Synthetic demo brand",
+    "snapshot": {
+      "pageProfileUri": "https://www.facebook.com/synthetic-meridian-demo",
+      "linkUrl": null,
+      "cards": [
+        {
+          "linkUrl": "https://meridian-demo.example/products"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,72 @@
+{
+  "note": "Three selected professional contacts from 14 returned employee records. Current roles are provider-reported, not independently confirmed.",
+  "records_returned": 14,
+  "candidates": [
+    {
+      "full_name": "Jona McKnight",
+      "linkedin_url": "https://www.linkedin.com/in/jonamcknight",
+      "location": {
+        "city": "High Wycombe",
+        "state_code": "ENG",
+        "country_code": "GB",
+        "continent": "Europe",
+        "postal_code": null,
+        "street_address": null
+      },
+      "experiences": [
+        {
+          "company_name": "The Perfume Shop",
+          "company_domain": "theperfumeshop.com",
+          "company_linkedin_url": "https://www.linkedin.com/company/the-perfume-shop",
+          "job_title": "Senior Creative and Production Manager",
+          "job_is_current": true,
+          "job_end_date": null
+        }
+      ]
+    },
+    {
+      "full_name": "Amy Danbrowsky",
+      "linkedin_url": "https://www.linkedin.com/in/amy-danbrowsky-1aa60431",
+      "location": {
+        "city": "Maidenhead",
+        "state_code": "ENG",
+        "country_code": "GB",
+        "continent": "Europe",
+        "postal_code": null,
+        "street_address": null
+      },
+      "experiences": [
+        {
+          "company_name": "The Perfume Shop",
+          "company_domain": "theperfumeshop.com",
+          "company_linkedin_url": "https://www.linkedin.com/company/the-perfume-shop",
+          "job_title": "Senior Brand & Insights Manager",
+          "job_is_current": true,
+          "job_end_date": null
+        }
+      ]
+    },
+    {
+      "full_name": "Amy Sawyer",
+      "linkedin_url": "https://www.linkedin.com/in/amy-sawyer-7a408926",
+      "location": {
+        "city": "United Kingdom",
+        "state_code": null,
+        "country_code": "GB",
+        "continent": "Europe",
+        "postal_code": null,
+        "street_address": null
+      },
+      "experiences": [
+        {
+          "company_name": "The Perfume Shop",
+          "company_domain": "theperfumeshop.com",
+          "company_linkedin_url": "https://www.linkedin.com/company/the-perfume-shop",
+          "job_title": "Senior Digital Marketing and Analytics Manager",
+          "job_is_current": true,
+          "job_end_date": null
+        }
+      ]
+    }
+  ]
+}

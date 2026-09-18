@@ -1,0 +1,14 @@
+{
+  "status": "completed",
+  "output": [
+    {
+      "type": "message",
+      "content": [
+        {
+          "type": "output_text",
+          "text": "{\"decision\": \"relevant\", \"signal\": \"creative_governance\", \"company_kind\": \"advertiser\", \"evidence_quotes\": [\"Own brand standards and channel specifications for paid social advertising assets.\"], \"scope_quote\": \"Coordinate digital advertising across three markets, our brand teams and external agencies.\", \"reporting_line_quote\": \"Reports to the Director of Creative Operations.\", \"reason\": \"Advertising responsibilities and coordination scope overlap with defined creative checks or measurement.\"}"
+        }
+      ]
+    }
+  ]
+}

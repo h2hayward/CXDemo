@@ -1,0 +1,138 @@
+{
+  "acquisition": "Live JSearch and Azure responses from 17 September 2026; live Meta and Blitz completion at 00:02-00:03 BST on 18 September.",
+  "query": "creative production manager in United Kingdom",
+  "country": "gb",
+  "date_posted": "month",
+  "recovery": "Initial corporate homepage requests were blocked; broad Meta keyword search returned unrelated ads. Exact phrase search completed the live workflow. Earlier received job/model responses were reused rather than reacquired.",
+  "export": "Contact ranking, readable listing URL and wording were refined locally using those same received responses.",
+  "input_accounts_seeded": false,
+  "careers_pages_checked": false,
+  "native_spot_checks": {
+    "Meta": "HTTP 403",
+    "LinkedIn": "HTTP 999"
+  },
+  "receipts": {
+    "ads-0001": {
+      "provider": "ads",
+      "finished_at": "2026-09-17T23:02:23.474582+00:00",
+      "state": "received",
+      "evidence": "evidence/ads-0001.json"
+    },
+    "apify_dataset-0001": {
+      "provider": "apify_dataset",
+      "finished_at": "2026-09-17T23:02:49.983437+00:00",
+      "state": "received",
+      "evidence": "evidence/apify_dataset-0001.json"
+    },
+    "apify_dataset-0002": {
+      "provider": "apify_dataset",
+      "finished_at": "2026-09-17T23:02:50.644951+00:00",
+      "state": "received",
+      "evidence": "evidence/apify_dataset-0002.json"
+    },
+    "apify_dataset-0003": {
+      "provider": "apify_dataset",
+      "finished_at": "2026-09-17T23:02:51.048490+00:00",
+      "state": "received",
+      "evidence": "evidence/apify_dataset-0003.json"
+    },
+    "apify_status-0001": {
+      "provider": "apify_status",
+      "finished_at": "2026-09-17T23:02:48.789029+00:00",
+      "state": "received",
+      "evidence": "evidence/apify_status-0001.json"
+    },
+    "apify_status-0002": {
+      "provider": "apify_status",
+      "finished_at": "2026-09-17T23:02:49.565932+00:00",
+      "state": "received",
+      "evidence": "evidence/apify_status-0002.json"
+    },
+    "blitz-0001": {
+      "provider": "blitz",
+      "finished_at": "2026-09-17T23:02:51.316208+00:00",
+      "state": "received",
+      "evidence": "evidence/blitz-0001.json"
+    },
+    "blitz-0002": {
+      "provider": "blitz",
+      "finished_at": "2026-09-17T23:02:51.921645+00:00",
+      "state": "received",
+      "evidence": "evidence/blitz-0002.json"
+    },
+    "jsearch-0001": {
+      "provider": "jsearch",
+      "finished_at": "2026-09-17T22:54:02.097165+00:00",
+      "state": "received",
+      "evidence": "evidence/jsearch-0001.json"
+    },
+    "llm-0001": {
+      "provider": "llm",
+      "finished_at": "2026-09-17T22:54:06.210027+00:00",
+      "state": "received",
+      "evidence": "evidence/llm-0001.json"
+    },
+    "llm-0002": {
+      "provider": "llm",
+      "finished_at": "2026-09-17T22:54:08.455825+00:00",
+      "state": "received",
+      "evidence": "evidence/llm-0002.json"
+    },
+    "llm-0003": {
+      "provider": "llm",
+      "finished_at": "2026-09-17T22:54:11.808274+00:00",
+      "state": "received",
+      "evidence": "evidence/llm-0003.json"
+    },
+    "llm-0004": {
+      "provider": "llm",
+      "finished_at": "2026-09-17T22:54:14.508831+00:00",
+      "state": "received",
+      "evidence": "evidence/llm-0004.json"
+    },
+    "llm-0005": {
+      "provider": "llm",
+      "finished_at": "2026-09-17T22:54:17.161371+00:00",
+      "state": "received",
+      "evidence": "evidence/llm-0005.json"
+    }
+  },
+  "raw_evidence_sha256": {
+    "ads-0001.json": "8af3499ac0928ccff5f27c3c65b06a2d5b69d9fa4073db82062d7a76f8e51aa2",
+    "apify_dataset-0001.json": "d3a58a56c5be5a11e7cd00a8523d652847c14109ac2489c3e88ded307a3a1b7f",
+    "apify_dataset-0002.json": "a44741d983f9fb783e50fa339e506418e5ac8638954f38d927100995145ca321",
+    "apify_dataset-0003.json": "d3a58a56c5be5a11e7cd00a8523d652847c14109ac2489c3e88ded307a3a1b7f",
+    "apify_status-0001.json": "cbf62023f1c9a95300b3eaf28022c37480a6a3bb6a6a82a3ff5e4b80286ccf6a",
+    "apify_status-0002.json": "b4b40e7b6c16f0d36264cbf1485766f60549e7bcb61950378d6663dbf5219da4",
+    "blitz-0001.json": "7e1ff4675bfa00172e8f817bf6aae1253e471939b314e585ab4a017a20f25631",
+    "blitz-0002.json": "6bb15ad4a253d12e87ad4660692b2cd6493cf285f274e23219669e8dc816efd5",
+    "jsearch-0001.json": "c53b7d197084e26f85c9cbefe841fc2f028bee4addb357e3b4b7c4793962f819",
+    "llm-0001.json": "abbf97cec76b9d2bbd20e2b1fc84de77d0a5bb7b24ad65c1c5b7fbf4fc0893aa",
+    "llm-0002.json": "cbf124e20ea497e41186d1501abd12b7c8a08758d638f82bcca08b758bdc5177",
+    "llm-0003.json": "dc0eab59c06b5c3c000d098d336e60ba47d040551df218670b4472bf422f1bd2",
+    "llm-0004.json": "52dabd409f1b3867362ff305963e75e8ac40b5a16512435a3172b3bf6350cf36",
+    "llm-0005.json": "3a8eeb223ba0c795194756e067dd7072919e1c2aa88aff82839797fadb1d966c"
+  },
+  "verified_metrics": {
+    "discovered_jobs": 10,
+    "descriptions_analysed": 5,
+    "priority_review_accounts": 1,
+    "meta_rows": 25,
+    "unique_active_ads": 22,
+    "matched_active_ads": 20,
+    "employee_records_returned": 14,
+    "selected_contacts": 3
+  },
+  "scope_limits": {
+    "total_company_ad_inventory": "unknown",
+    "current_role": "provider-reported",
+    "reporting_relationship": "unconfirmed",
+    "CreativeX_customer_or_territory_eligibility": "unknown"
+  },
+  "actual_meta_cost_usd": 0.29,
+  "model_tokens": {
+    "input": 5597,
+    "output": 1032
+  },
+  "jsearch_cost_estimate_usd": 0.005
+}

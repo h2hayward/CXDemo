@@ -1,0 +1,77 @@
+[
+  {
+    "adArchiveID": "9990001",
+    "pageID": "999000",
+    "isActive": true,
+    "pageName": "Synthetic demo brand",
+    "snapshot": {
+      "pageProfileUri": "https://www.facebook.com/synthetic-harbour-demo",
+      "linkUrl": null,
+      "cards": [
+        {
+          "linkUrl": "https://harbour-demo.example/products"
+        }
+      ]
+    }
+  },
+  {
+    "adArchiveID": "9990002",
+    "pageID": "999000",
+    "isActive": true,
+    "pageName": "Synthetic demo brand",
+    "snapshot": {
+      "pageProfileUri": "https://www.facebook.com/synthetic-harbour-demo",
+      "linkUrl": null,
+      "cards": [
+        {
+          "linkUrl": "https://harbour-demo.example/products"
+        }
+      ]
+    }
+  },
+  {
+    "adArchiveID": "9990001",
+    "pageID": "999000",
+    "isActive": true,
+    "pageName": "Synthetic demo brand",
+    "snapshot": {
+      "pageProfileUri": "https://www.facebook.com/synthetic-harbour-demo",
+      "linkUrl": null,
+      "cards": [
+        {
+          "linkUrl": "https://harbour-demo.example/products"
+        }
+      ]
+    }
+  },
+  {
+    "adArchiveID": "9990003",
+    "pageID": "999000",
+    "isActive": true,
+    "pageName": "Synthetic demo brand",
+    "snapshot": {
+      "pageProfileUri": "https://www.facebook.com/synthetic-harbour-demo",
+      "linkUrl": null,
+      "cards": [
+        {
+          "linkUrl": "https://unrelated-demo.example/products"
+        }
+      ]
+    }
+  },
+  {
+    "adArchiveID": "9990004",
+    "pageID": "999000",
+    "isActive": false,
+    "pageName": "Synthetic demo brand",
+    "snapshot": {
+      "pageProfileUri": "https://www.facebook.com/synthetic-harbour-demo",
+      "linkUrl": null,
+      "cards": [
+        {
+          "linkUrl": "https://harbour-demo.example/products"
+        }
+      ]
+    }
+  }
+]

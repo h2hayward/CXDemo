@@ -1,0 +1,9 @@
+{
+  "data": {
+    "id": "syntheticRun2",
+    "status": "SUCCEEDED",
+    "defaultDatasetId": "syntheticRun2",
+    "usageTotalUsd": 0,
+    "synthetic": true
+  }
+}

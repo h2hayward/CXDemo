@@ -1,0 +1,14 @@
+{
+  "status": "completed",
+  "output": [
+    {
+      "type": "message",
+      "content": [
+        {
+          "type": "output_text",
+          "text": "{\"decision\": \"relevant\", \"signal\": \"creative_measurement\", \"company_kind\": \"advertiser\", \"evidence_quotes\": [\"Measure creative effectiveness and connect advertising asset attributes with media performance.\"], \"scope_quote\": \"Coordinate digital advertising across three markets, our brand teams and external agencies.\", \"reporting_line_quote\": \"Reports to the Head of Marketing Measurement.\", \"reason\": \"Advertising responsibilities and coordination scope overlap with defined creative checks or measurement.\"}"
+        }
+      ]
+    }
+  ]
+}

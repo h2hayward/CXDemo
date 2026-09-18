@@ -1,0 +1,736 @@
+{
+  "mode": "synthetic_demo",
+  "state": "complete",
+  "outcome": {
+    "priority_review_accounts": 2,
+    "yield_status": "candidates_for_review",
+    "live_validation": "not_applicable_synthetic"
+  },
+  "accounts": [
+    {
+      "id": "6e6186cbd8592ab7",
+      "company": "Demo Harbour Brands",
+      "domain": "harbour-demo.example",
+      "job": {
+        "id": "1",
+        "company": "Demo Harbour Brands",
+        "domain": "harbour-demo.example",
+        "title": "Creative Operations Manager",
+        "description": "We are Demo Harbour Brands, a consumer brand advertising our own products. Own brand standards and channel specifications for paid social advertising assets. Coordinate digital advertising across three markets, our brand teams and external agencies. Reports to the Director of Creative Operations.",
+        "country": "GB",
+        "location": "London, UK",
+        "posted_at": "2026-09-12T10:00:00Z",
+        "apply_urls": [
+          "https://harbour-demo.example/careers/1"
+        ],
+        "listing_url": "https://harbour-demo.example/careers/1",
+        "discovery_url": "https://harbour-demo.example/careers/1",
+        "source": "JSearch",
+        "account_domain": "harbour-demo.example",
+        "query": "creative operations",
+        "search_country": "us",
+        "discovery_evidence": "evidence/jsearch-0001.json",
+        "record_id": "6d84af54bfcd85ad",
+        "status": "priority_review",
+        "reason": "Hiring signal and advertising checked; see account brief",
+        "discovery_analysis": {
+          "decision": "relevant",
+          "signal": "creative_governance",
+          "company_kind": "advertiser",
+          "evidence_quotes": [
+            "Own brand standards and channel specifications for paid social advertising assets."
+          ],
+          "scope_quote": "Coordinate digital advertising across three markets, our brand teams and external agencies.",
+          "reporting_line_quote": "Reports to the Director of Creative Operations.",
+          "reason": "Advertising responsibilities and coordination scope overlap with defined creative checks or measurement."
+        },
+        "analysis_evidence": "evidence/llm-0001.json"
+      },
+      "status": "priority_review",
+      "score": 8,
+      "score_basis": [
+        [
+          "Job listing and source retained",
+          2
+        ],
+        [
+          "Relevant responsibilities with exact source quotes",
+          2
+        ],
+        [
+          "Explicit coordination scope",
+          1
+        ],
+        [
+          "Recent listing date",
+          1
+        ],
+        [
+          "Active Meta records with matching landing domain",
+          1
+        ],
+        [
+          "Possible current functional owner found",
+          1
+        ]
+      ],
+      "gaps": [
+        "Confirm account/customer status, territory ownership and existing opportunities in CreativeX's records.",
+        "Spot-check linked ads in Meta's native library; counts do not show spend, total creative volume or buying intent."
+      ],
+      "next_action": "Review evidence and account eligibility; confirm the person's remit and reporting relationship before preparing outreach.",
+      "conversation_angle": "Explore whether defined digital-asset checks and shared reporting could support this team's brand standards and channel requirements.",
+      "people": {
+        "candidates": [
+          {
+            "name": "Demo Alex Rowan",
+            "title": "Director of Creative Operations",
+            "profile_url": "https://www.linkedin.com/in/synthetic-demo-demo-alex-rowan",
+            "country": "GB",
+            "evidence_status": "provider_reports_current_role",
+            "relationship": "possible functional owner; reporting line not confirmed",
+            "match_reason": "Current company-domain match; relevant title terms: creative",
+            "score": 19
+          },
+          {
+            "name": "Demo Sam Ellis",
+            "title": "Head of Marketing Measurement",
+            "profile_url": "https://www.linkedin.com/in/synthetic-demo-demo-sam-ellis",
+            "country": "GB",
+            "evidence_status": "provider_reports_current_role",
+            "relationship": "possible functional owner; reporting line not confirmed",
+            "match_reason": "Current company-domain match; relevant title terms: marketing, measurement",
+            "score": 7
+          }
+        ],
+        "candidates_considered": 2,
+        "coverage_complete": false,
+        "reason": "One bounded page; current employment is provider-reported and should be checked before contact",
+        "evidence_files": [
+          "evidence/blitz-0001.json",
+          "evidence/blitz-0002.json"
+        ]
+      },
+      "posting": {
+        "status": "listing_sourced",
+        "source_kind": "job_listing",
+        "availability": "not_checked",
+        "url": "https://harbour-demo.example/careers/1",
+        "description": "We are Demo Harbour Brands, a consumer brand advertising our own products. Own brand standards and channel specifications for paid social advertising assets. Coordinate digital advertising across three markets, our brand teams and external agencies. Reports to the Director of Creative Operations.",
+        "posted_at": "2026-09-12T10:00:00Z",
+        "checked_at": "2026-09-17T23:08:16.647141+00:00",
+        "evidence_file": "evidence/jsearch-0001.json",
+        "reason": "Hiring signal taken from the discovered job listing; employer website check disabled."
+      },
+      "analysis_evidence": "evidence/llm-0001.json",
+      "analysis": {
+        "decision": "relevant",
+        "signal": "creative_governance",
+        "company_kind": "advertiser",
+        "evidence_quotes": [
+          "Own brand standards and channel specifications for paid social advertising assets."
+        ],
+        "scope_quote": "Coordinate digital advertising across three markets, our brand teams and external agencies.",
+        "reporting_line_quote": "Reports to the Director of Creative Operations.",
+        "reason": "Advertising responsibilities and coordination scope overlap with defined creative checks or measurement."
+      },
+      "freshness": {
+        "status": "fresh",
+        "date": "2026-09-12T10:00:00Z",
+        "source": "discovery"
+      },
+      "conversation_starter": "Your Creative Operations Manager posting says: ‘Own brand standards and channel specifications for paid social advertising assets.’ How does the team check brand and channel requirements across those assets today?",
+      "target_role": "Reports to the Director of Creative Operations.",
+      "ads": {
+        "platform": "Meta",
+        "scope": "ALL",
+        "checked_at": "2026-09-17T23:08:16.653826+00:00",
+        "status": "observed_active",
+        "provider_reported_count": null,
+        "returned_unique_active_ads": 3,
+        "matched_active_ads": 2,
+        "complete": false,
+        "examples": [
+          {
+            "ad_id": "9990001",
+            "page_name": "Synthetic demo brand",
+            "page_id": "999000",
+            "landing_url": "https://harbour-demo.example/products",
+            "source_url": "https://www.facebook.com/ads/library/?id=9990001"
+          },
+          {
+            "ad_id": "9990002",
+            "page_name": "Synthetic demo brand",
+            "page_id": "999000",
+            "landing_url": "https://harbour-demo.example/products",
+            "source_url": "https://www.facebook.com/ads/library/?id=9990002"
+          }
+        ],
+        "reason": "Active records link to the account domain or an explicitly configured alias; native library review remains available",
+        "access_provider": "Apify",
+        "evidence_files": [
+          "evidence/ads-0001.json",
+          "evidence/apify_dataset-0001.json",
+          "evidence/apify_dataset-0002.json"
+        ],
+        "identity": {
+          "page_url": "https://www.facebook.com/synthetic-harbour-demo",
+          "basis": "operator-reviewed company/page mapping",
+          "evidence_files": []
+        },
+        "sample_limit": 25,
+        "run_id": "syntheticRun1",
+        "raw_dataset_rows": 5,
+        "dataset_metadata_count": 5,
+        "dataset_metadata_lagged": false,
+        "page_matched_rows": 5,
+        "usage_total_usd_preliminary": 0,
+        "evidence_file": "evidence/apify_dataset-0002.json"
+      }
+    },
+    {
+      "id": "47aa9cd68b12d105",
+      "company": "Demo Meridian Consumer",
+      "domain": "meridian-demo.example",
+      "job": {
+        "id": "3",
+        "company": "Demo Meridian Consumer",
+        "domain": "meridian-demo.example",
+        "title": "Creative Effectiveness Lead",
+        "description": "We are Demo Meridian Consumer, a consumer brand advertising our own products. Measure creative effectiveness and connect advertising asset attributes with media performance. Coordinate digital advertising across three markets, our brand teams and external agencies. Reports to the Head of Marketing Measurement.",
+        "country": "GB",
+        "location": "London, UK",
+        "posted_at": "2026-09-12T10:00:00Z",
+        "apply_urls": [
+          "https://meridian-demo.example/careers/3"
+        ],
+        "listing_url": "https://meridian-demo.example/careers/3",
+        "discovery_url": "https://meridian-demo.example/careers/3",
+        "source": "JSearch",
+        "account_domain": "meridian-demo.example",
+        "query": "creative operations",
+        "search_country": "us",
+        "discovery_evidence": "evidence/jsearch-0001.json",
+        "record_id": "4d7a84e0f75ddc68",
+        "status": "priority_review",
+        "reason": "Hiring signal and advertising checked; see account brief",
+        "discovery_analysis": {
+          "decision": "relevant",
+          "signal": "creative_measurement",
+          "company_kind": "advertiser",
+          "evidence_quotes": [
+            "Measure creative effectiveness and connect advertising asset attributes with media performance."
+          ],
+          "scope_quote": "Coordinate digital advertising across three markets, our brand teams and external agencies.",
+          "reporting_line_quote": "Reports to the Head of Marketing Measurement.",
+          "reason": "Advertising responsibilities and coordination scope overlap with defined creative checks or measurement."
+        },
+        "analysis_evidence": "evidence/llm-0002.json"
+      },
+      "status": "priority_review",
+      "score": 8,
+      "score_basis": [
+        [
+          "Job listing and source retained",
+          2
+        ],
+        [
+          "Relevant responsibilities with exact source quotes",
+          2
+        ],
+        [
+          "Explicit coordination scope",
+          1
+        ],
+        [
+          "Recent listing date",
+          1
+        ],
+        [
+          "Active Meta records with matching landing domain",
+          1
+        ],
+        [
+          "Possible current functional owner found",
+          1
+        ]
+      ],
+      "gaps": [
+        "Confirm account/customer status, territory ownership and existing opportunities in CreativeX's records.",
+        "Spot-check linked ads in Meta's native library; counts do not show spend, total creative volume or buying intent."
+      ],
+      "next_action": "Review evidence and account eligibility; confirm the person's remit and reporting relationship before preparing outreach.",
+      "conversation_angle": "Explore whether a consistent creative-data layer could support this team's advertising measurement and creative-effectiveness work.",
+      "people": {
+        "candidates": [
+          {
+            "name": "Demo Taylor Vale",
+            "title": "Head of Marketing Measurement",
+            "profile_url": "https://www.linkedin.com/in/synthetic-demo-taylor-vale",
+            "country": "GB",
+            "evidence_status": "provider_reports_current_role",
+            "relationship": "possible functional owner; reporting line not confirmed",
+            "match_reason": "Current company-domain match; relevant title terms: marketing, measurement",
+            "score": 16
+          },
+          {
+            "name": "Demo Casey Morgan",
+            "title": "Director of Creative Operations",
+            "profile_url": "https://www.linkedin.com/in/synthetic-demo-casey-morgan",
+            "country": "GB",
+            "evidence_status": "provider_reports_current_role",
+            "relationship": "possible functional owner; reporting line not confirmed",
+            "match_reason": "Current company-domain match; relevant title terms: creative",
+            "score": 6
+          }
+        ],
+        "candidates_considered": 2,
+        "coverage_complete": false,
+        "reason": "One bounded page; current employment is provider-reported and should be checked before contact",
+        "evidence_files": [
+          "evidence/blitz-0003.json",
+          "evidence/blitz-0004.json"
+        ]
+      },
+      "posting": {
+        "status": "listing_sourced",
+        "source_kind": "job_listing",
+        "availability": "not_checked",
+        "url": "https://meridian-demo.example/careers/3",
+        "description": "We are Demo Meridian Consumer, a consumer brand advertising our own products. Measure creative effectiveness and connect advertising asset attributes with media performance. Coordinate digital advertising across three markets, our brand teams and external agencies. Reports to the Head of Marketing Measurement.",
+        "posted_at": "2026-09-12T10:00:00Z",
+        "checked_at": "2026-09-17T23:08:16.647141+00:00",
+        "evidence_file": "evidence/jsearch-0001.json",
+        "reason": "Hiring signal taken from the discovered job listing; employer website check disabled."
+      },
+      "analysis_evidence": "evidence/llm-0002.json",
+      "analysis": {
+        "decision": "relevant",
+        "signal": "creative_measurement",
+        "company_kind": "advertiser",
+        "evidence_quotes": [
+          "Measure creative effectiveness and connect advertising asset attributes with media performance."
+        ],
+        "scope_quote": "Coordinate digital advertising across three markets, our brand teams and external agencies.",
+        "reporting_line_quote": "Reports to the Head of Marketing Measurement.",
+        "reason": "Advertising responsibilities and coordination scope overlap with defined creative checks or measurement."
+      },
+      "freshness": {
+        "status": "fresh",
+        "date": "2026-09-12T10:00:00Z",
+        "source": "discovery"
+      },
+      "conversation_starter": "Your Creative Effectiveness Lead posting says: ‘Measure creative effectiveness and connect advertising asset attributes with media performance.’ How does the team connect that measurement work back to individual creative assets today?",
+      "target_role": "Reports to the Head of Marketing Measurement.",
+      "ads": {
+        "platform": "Meta",
+        "scope": "ALL",
+        "checked_at": "2026-09-17T23:08:16.657120+00:00",
+        "status": "observed_active",
+        "provider_reported_count": null,
+        "returned_unique_active_ads": 3,
+        "matched_active_ads": 2,
+        "complete": false,
+        "examples": [
+          {
+            "ad_id": "9990101",
+            "page_name": "Synthetic demo brand",
+            "page_id": "999000",
+            "landing_url": "https://meridian-demo.example/products",
+            "source_url": "https://www.facebook.com/ads/library/?id=9990101"
+          },
+          {
+            "ad_id": "9990102",
+            "page_name": "Synthetic demo brand",
+            "page_id": "999000",
+            "landing_url": "https://meridian-demo.example/products",
+            "source_url": "https://www.facebook.com/ads/library/?id=9990102"
+          }
+        ],
+        "reason": "Active records link to the account domain or an explicitly configured alias; native library review remains available",
+        "access_provider": "Apify",
+        "evidence_files": [
+          "evidence/ads-0002.json",
+          "evidence/apify_dataset-0003.json",
+          "evidence/apify_dataset-0004.json"
+        ],
+        "identity": {
+          "page_url": "https://www.facebook.com/synthetic-meridian-demo",
+          "basis": "operator-reviewed company/page mapping",
+          "evidence_files": []
+        },
+        "sample_limit": 25,
+        "run_id": "syntheticRun2",
+        "raw_dataset_rows": 5,
+        "dataset_metadata_count": 5,
+        "dataset_metadata_lagged": false,
+        "page_matched_rows": 5,
+        "usage_total_usd_preliminary": 0,
+        "evidence_file": "evidence/apify_dataset-0004.json"
+      }
+    },
+    {
+      "id": "549912759259c4b8",
+      "company": "Demo Unresolved Ads",
+      "domain": "unresolved-demo.example",
+      "job": {
+        "id": "6",
+        "company": "Demo Unresolved Ads",
+        "domain": "unresolved-demo.example",
+        "title": "Brand Creative Operations Lead",
+        "description": "We are Demo Unresolved Ads, a consumer brand advertising our own products. Own brand standards and channel specifications for paid social advertising assets. Coordinate digital advertising across three markets, our brand teams and external agencies. Reports to the Director of Creative Operations.",
+        "country": "GB",
+        "location": "London, UK",
+        "posted_at": "2026-09-12T10:00:00Z",
+        "apply_urls": [
+          "https://unresolved-demo.example/careers/6"
+        ],
+        "listing_url": "https://unresolved-demo.example/careers/6",
+        "discovery_url": "https://unresolved-demo.example/careers/6",
+        "source": "JSearch",
+        "account_domain": "unresolved-demo.example",
+        "query": "creative operations",
+        "search_country": "us",
+        "discovery_evidence": "evidence/jsearch-0001.json",
+        "record_id": "ab80e4ed51f727c6",
+        "status": "needs_review",
+        "reason": "Relevant hiring; advertising evidence unresolved",
+        "discovery_analysis": {
+          "decision": "relevant",
+          "signal": "creative_governance",
+          "company_kind": "advertiser",
+          "evidence_quotes": [
+            "Own brand standards and channel specifications for paid social advertising assets."
+          ],
+          "scope_quote": "Coordinate digital advertising across three markets, our brand teams and external agencies.",
+          "reporting_line_quote": "Reports to the Director of Creative Operations.",
+          "reason": "Advertising responsibilities and coordination scope overlap with defined creative checks or measurement."
+        },
+        "analysis_evidence": "evidence/llm-0004.json"
+      },
+      "status": "needs_review",
+      "score": 6,
+      "score_basis": [
+        [
+          "Job listing and source retained",
+          2
+        ],
+        [
+          "Relevant responsibilities with exact source quotes",
+          2
+        ],
+        [
+          "Explicit coordination scope",
+          1
+        ],
+        [
+          "Recent listing date",
+          1
+        ]
+      ],
+      "gaps": [
+        "Confirm account/customer status, territory ownership and existing opportunities in CreativeX's records.",
+        "No active ad records matched both the advertiser identity and the account landing domain in this bounded sample"
+      ],
+      "next_action": "Check Meta page identity and ad activity; people lookup skipped until advertising evidence is usable.",
+      "conversation_angle": "Explore whether defined digital-asset checks and shared reporting could support this team's brand standards and channel requirements.",
+      "people": {
+        "candidates": []
+      },
+      "posting": {
+        "status": "listing_sourced",
+        "source_kind": "job_listing",
+        "availability": "not_checked",
+        "url": "https://unresolved-demo.example/careers/6",
+        "description": "We are Demo Unresolved Ads, a consumer brand advertising our own products. Own brand standards and channel specifications for paid social advertising assets. Coordinate digital advertising across three markets, our brand teams and external agencies. Reports to the Director of Creative Operations.",
+        "posted_at": "2026-09-12T10:00:00Z",
+        "checked_at": "2026-09-17T23:08:16.647141+00:00",
+        "evidence_file": "evidence/jsearch-0001.json",
+        "reason": "Hiring signal taken from the discovered job listing; employer website check disabled."
+      },
+      "analysis_evidence": "evidence/llm-0004.json",
+      "analysis": {
+        "decision": "relevant",
+        "signal": "creative_governance",
+        "company_kind": "advertiser",
+        "evidence_quotes": [
+          "Own brand standards and channel specifications for paid social advertising assets."
+        ],
+        "scope_quote": "Coordinate digital advertising across three markets, our brand teams and external agencies.",
+        "reporting_line_quote": "Reports to the Director of Creative Operations.",
+        "reason": "Advertising responsibilities and coordination scope overlap with defined creative checks or measurement."
+      },
+      "freshness": {
+        "status": "fresh",
+        "date": "2026-09-12T10:00:00Z",
+        "source": "discovery"
+      },
+      "conversation_starter": "Your Brand Creative Operations Lead posting says: ‘Own brand standards and channel specifications for paid social advertising assets.’ How does the team check brand and channel requirements across those assets today?",
+      "target_role": "Reports to the Director of Creative Operations.",
+      "ads": {
+        "platform": "Meta",
+        "scope": "ALL",
+        "checked_at": "2026-09-17T23:08:16.659982+00:00",
+        "status": "unknown",
+        "provider_reported_count": null,
+        "returned_unique_active_ads": 0,
+        "matched_active_ads": 0,
+        "complete": false,
+        "examples": [],
+        "reason": "No active ad records matched both the advertiser identity and the account landing domain in this bounded sample",
+        "access_provider": "Apify",
+        "evidence_files": [
+          "evidence/ads-0003.json",
+          "evidence/apify_dataset-0005.json",
+          "evidence/apify_dataset-0006.json"
+        ],
+        "identity": {
+          "page_url": "https://www.facebook.com/synthetic-unresolved-demo",
+          "basis": "operator-reviewed company/page mapping",
+          "evidence_files": []
+        },
+        "sample_limit": 25,
+        "run_id": "syntheticRun3",
+        "raw_dataset_rows": 0,
+        "dataset_metadata_count": 0,
+        "dataset_metadata_lagged": false,
+        "page_matched_rows": 0,
+        "usage_total_usd_preliminary": 0,
+        "evidence_file": "evidence/apify_dataset-0006.json"
+      }
+    }
+  ],
+  "jobs": [
+    {
+      "id": "1",
+      "company": "Demo Harbour Brands",
+      "domain": "harbour-demo.example",
+      "title": "Creative Operations Manager",
+      "description": "We are Demo Harbour Brands, a consumer brand advertising our own products. Own brand standards and channel specifications for paid social advertising assets. Coordinate digital advertising across three markets, our brand teams and external agencies. Reports to the Director of Creative Operations.",
+      "country": "GB",
+      "location": "London, UK",
+      "posted_at": "2026-09-12T10:00:00Z",
+      "apply_urls": [
+        "https://harbour-demo.example/careers/1"
+      ],
+      "listing_url": "https://harbour-demo.example/careers/1",
+      "discovery_url": "https://harbour-demo.example/careers/1",
+      "source": "JSearch",
+      "account_domain": "harbour-demo.example",
+      "query": "creative operations",
+      "search_country": "us",
+      "discovery_evidence": "evidence/jsearch-0001.json",
+      "record_id": "6d84af54bfcd85ad",
+      "status": "priority_review",
+      "reason": "Hiring signal and advertising checked; see account brief",
+      "discovery_analysis": {
+        "decision": "relevant",
+        "signal": "creative_governance",
+        "company_kind": "advertiser",
+        "evidence_quotes": [
+          "Own brand standards and channel specifications for paid social advertising assets."
+        ],
+        "scope_quote": "Coordinate digital advertising across three markets, our brand teams and external agencies.",
+        "reporting_line_quote": "Reports to the Director of Creative Operations.",
+        "reason": "Advertising responsibilities and coordination scope overlap with defined creative checks or measurement."
+      },
+      "analysis_evidence": "evidence/llm-0001.json"
+    },
+    {
+      "id": "syndicated-copy",
+      "company": "Demo Harbour Brands",
+      "domain": "harbour-demo.example",
+      "title": "Creative Operations Manager",
+      "description": "We are Demo Harbour Brands, a consumer brand advertising our own products. Own brand standards and channel specifications for paid social advertising assets. Coordinate digital advertising across three markets, our brand teams and external agencies. Reports to the Director of Creative Operations.",
+      "country": "GB",
+      "location": "London, UK",
+      "posted_at": "2026-09-12T10:00:00Z",
+      "apply_urls": [
+        "https://harbour-demo.example/careers/1",
+        "https://harbour-demo.example/careers/1?utm_source=board"
+      ],
+      "listing_url": "https://harbour-demo.example/careers/1?utm_source=board",
+      "discovery_url": "https://harbour-demo.example/careers/1?utm_source=board",
+      "source": "JSearch",
+      "account_domain": "harbour-demo.example",
+      "query": "creative operations",
+      "search_country": "us",
+      "discovery_evidence": "evidence/jsearch-0001.json",
+      "record_id": "c291fac9e14b26af",
+      "status": "duplicate",
+      "reason": "Same vacancy ID, application URL or employer/title/location already seen"
+    },
+    {
+      "id": "3",
+      "company": "Demo Meridian Consumer",
+      "domain": "meridian-demo.example",
+      "title": "Creative Effectiveness Lead",
+      "description": "We are Demo Meridian Consumer, a consumer brand advertising our own products. Measure creative effectiveness and connect advertising asset attributes with media performance. Coordinate digital advertising across three markets, our brand teams and external agencies. Reports to the Head of Marketing Measurement.",
+      "country": "GB",
+      "location": "London, UK",
+      "posted_at": "2026-09-12T10:00:00Z",
+      "apply_urls": [
+        "https://meridian-demo.example/careers/3"
+      ],
+      "listing_url": "https://meridian-demo.example/careers/3",
+      "discovery_url": "https://meridian-demo.example/careers/3",
+      "source": "JSearch",
+      "account_domain": "meridian-demo.example",
+      "query": "creative operations",
+      "search_country": "us",
+      "discovery_evidence": "evidence/jsearch-0001.json",
+      "record_id": "4d7a84e0f75ddc68",
+      "status": "priority_review",
+      "reason": "Hiring signal and advertising checked; see account brief",
+      "discovery_analysis": {
+        "decision": "relevant",
+        "signal": "creative_measurement",
+        "company_kind": "advertiser",
+        "evidence_quotes": [
+          "Measure creative effectiveness and connect advertising asset attributes with media performance."
+        ],
+        "scope_quote": "Coordinate digital advertising across three markets, our brand teams and external agencies.",
+        "reporting_line_quote": "Reports to the Head of Marketing Measurement.",
+        "reason": "Advertising responsibilities and coordination scope overlap with defined creative checks or measurement."
+      },
+      "analysis_evidence": "evidence/llm-0002.json"
+    },
+    {
+      "id": "4",
+      "company": "Demo Footwear Studio",
+      "domain": "footwear-demo.example",
+      "title": "Creative Director, Footwear",
+      "description": "We are Demo Footwear Studio, a consumer brand advertising our own products. Design footwear, apparel materials and physical product collections. Coordinate digital advertising across three markets, our brand teams and external agencies. Reports to the Director of Creative Operations.",
+      "country": "GB",
+      "location": "London, UK",
+      "posted_at": "2026-09-12T10:00:00Z",
+      "apply_urls": [
+        "https://footwear-demo.example/careers/4"
+      ],
+      "listing_url": "https://footwear-demo.example/careers/4",
+      "discovery_url": "https://footwear-demo.example/careers/4",
+      "source": "JSearch",
+      "account_domain": "footwear-demo.example",
+      "query": "creative operations",
+      "search_country": "us",
+      "discovery_evidence": "evidence/jsearch-0001.json",
+      "record_id": "227e9f7c475451fc",
+      "status": "rejected",
+      "reason": "This role concerns physical product design, not advertising asset governance or measurement.",
+      "discovery_analysis": {
+        "decision": "not_relevant",
+        "signal": "none",
+        "company_kind": "advertiser",
+        "evidence_quotes": [],
+        "scope_quote": "",
+        "reporting_line_quote": "",
+        "reason": "This role concerns physical product design, not advertising asset governance or measurement."
+      },
+      "analysis_evidence": "evidence/llm-0003.json"
+    },
+    {
+      "id": "5",
+      "company": "Demo Closed Goods",
+      "domain": "closed-demo.example",
+      "title": "Creative Production Manager",
+      "description": "We are Demo Closed Goods, a consumer brand advertising our own products. Own brand standards and channel specifications for paid social advertising assets. Coordinate digital advertising across three markets, our brand teams and external agencies. Reports to the Director of Creative Operations.",
+      "country": "GB",
+      "location": "London, UK",
+      "posted_at": "2026-07-12T10:00:00Z",
+      "apply_urls": [
+        "https://closed-demo.example/careers/5"
+      ],
+      "listing_url": "https://closed-demo.example/careers/5",
+      "discovery_url": "https://closed-demo.example/careers/5",
+      "source": "JSearch",
+      "account_domain": "closed-demo.example",
+      "query": "creative operations",
+      "search_country": "us",
+      "discovery_evidence": "evidence/jsearch-0001.json",
+      "record_id": "2c94bb6684738c89",
+      "status": "rejected",
+      "reason": "Discovery posting date is stale"
+    },
+    {
+      "id": "6",
+      "company": "Demo Unresolved Ads",
+      "domain": "unresolved-demo.example",
+      "title": "Brand Creative Operations Lead",
+      "description": "We are Demo Unresolved Ads, a consumer brand advertising our own products. Own brand standards and channel specifications for paid social advertising assets. Coordinate digital advertising across three markets, our brand teams and external agencies. Reports to the Director of Creative Operations.",
+      "country": "GB",
+      "location": "London, UK",
+      "posted_at": "2026-09-12T10:00:00Z",
+      "apply_urls": [
+        "https://unresolved-demo.example/careers/6"
+      ],
+      "listing_url": "https://unresolved-demo.example/careers/6",
+      "discovery_url": "https://unresolved-demo.example/careers/6",
+      "source": "JSearch",
+      "account_domain": "unresolved-demo.example",
+      "query": "creative operations",
+      "search_country": "us",
+      "discovery_evidence": "evidence/jsearch-0001.json",
+      "record_id": "ab80e4ed51f727c6",
+      "status": "needs_review",
+      "reason": "Relevant hiring; advertising evidence unresolved",
+      "discovery_analysis": {
+        "decision": "relevant",
+        "signal": "creative_governance",
+        "company_kind": "advertiser",
+        "evidence_quotes": [
+          "Own brand standards and channel specifications for paid social advertising assets."
+        ],
+        "scope_quote": "Coordinate digital advertising across three markets, our brand teams and external agencies.",
+        "reporting_line_quote": "Reports to the Director of Creative Operations.",
+        "reason": "Advertising responsibilities and coordination scope overlap with defined creative checks or measurement."
+      },
+      "analysis_evidence": "evidence/llm-0004.json"
+    },
+    {
+      "id": "7",
+      "company": "Demo Existing Customer",
+      "domain": "existing-demo.example",
+      "title": "Creative Operations Manager",
+      "description": "We are Demo Existing Customer, a consumer brand advertising our own products. Own brand standards and channel specifications for paid social advertising assets. Coordinate digital advertising across three markets, our brand teams and external agencies. Reports to the Director of Creative Operations.",
+      "country": "GB",
+      "location": "London, UK",
+      "posted_at": "2026-09-12T10:00:00Z",
+      "apply_urls": [
+        "https://existing-demo.example/careers/7"
+      ],
+      "listing_url": "https://existing-demo.example/careers/7",
+      "discovery_url": "https://existing-demo.example/careers/7",
+      "source": "JSearch",
+      "account_domain": "existing-demo.example",
+      "query": "creative operations",
+      "search_country": "us",
+      "discovery_evidence": "evidence/jsearch-0001.json",
+      "record_id": "fd3f4ae585cf5f75",
+      "status": "excluded",
+      "reason": "Configured exclusion or outside named-account list"
+    },
+    {
+      "id": "8",
+      "company": "Demo Missing Domain",
+      "domain": "",
+      "title": "Creative Production Lead",
+      "description": "We are Demo Missing Domain, a consumer brand advertising our own products. Own brand standards and channel specifications for paid social advertising assets. Coordinate digital advertising across three markets, our brand teams and external agencies. Reports to the Director of Creative Operations.",
+      "country": "GB",
+      "location": "London, UK",
+      "posted_at": "2026-09-12T10:00:00Z",
+      "apply_urls": [
+        "https://missing-demo.example/careers/8"
+      ],
+      "listing_url": "https://missing-demo.example/careers/8",
+      "discovery_url": "https://missing-demo.example/careers/8",
+      "source": "JSearch",
+      "account_domain": "",
+      "query": "creative operations",
+      "search_country": "us",
+      "discovery_evidence": "evidence/jsearch-0001.json",
+      "record_id": "152c0e53c18fbd73",
+      "status": "needs_review",
+      "reason": "Corporate domain unavailable; no speculative company join"
+    }
+  ]
+}

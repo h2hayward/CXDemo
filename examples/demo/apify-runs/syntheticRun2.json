@@ -1,0 +1,23 @@
+{
+  "run_id": "syntheticRun2",
+  "account_domain": "meridian-demo.example",
+  "input": {
+    "startUrls": [
+      {
+        "url": "https://www.facebook.com/synthetic-meridian-demo"
+      }
+    ],
+    "resultsLimit": 25,
+    "activeStatus": "active",
+    "onlyTotal": false,
+    "includeAboutPage": false,
+    "isDetailsPerAd": false,
+    "enrichWithEcommerceData": false
+  },
+  "charge_ceiling_usd": "0.145",
+  "status": "SUCCEEDED",
+  "usage_total_usd_preliminary": 0,
+  "evidence_files": [
+    "evidence/ads-0002.json"
+  ]
+}
