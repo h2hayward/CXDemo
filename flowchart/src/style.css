@@ -1,41 +1,61 @@
-:root { font-family: Arial, Helvetica, sans-serif; color: #20352f; background: #e9ede9; font-synthesis: none; }
+/* Brand tokens and diagram treatment from h2.studio/case-studies/ravn. */
+@font-face { font-family: H2Komplekt; src: url('https://h2.studio/_next/static/immutable/media/komplekt_060_medium-s.p.1w5n_z93n4gmm.otf') format('opentype'); font-style: normal; font-weight: 500; font-display: swap; }
+@font-face { font-family: H2Geist; src: url('https://h2.studio/_next/static/immutable/media/caa3a2e1cccd8315-s.p.0zr6hhvz-h9nw.woff2') format('woff2'); font-style: normal; font-weight: 100 900; font-display: swap; }
+@font-face { font-family: H2GeistMono; src: url('https://h2.studio/_next/static/immutable/media/797e433ab948586e-s.p.1v5bejj26fx9h.woff2') format('woff2'); font-style: normal; font-weight: 100 900; font-display: swap; }
+:root { --bg-page: #080a09; --bg-card: #0f1210; --border: #212722; --border-strong: #566157; --text: #f4f4f0; --secondary: #a5aaa4; --label: #676c67; --accent: #b8e63a; font-family: H2Geist, Arial, sans-serif; color: var(--text); background: #181d19; font-synthesis: none; }
 * { box-sizing: border-box; }
 body { margin: 0; }
-.toolbar { display: flex; align-items: center; justify-content: space-between; gap: 24px; max-width: 1104px; margin: 24px auto; padding: 0 8px; font-size: 16px; color: #52635c; }
-button { appearance: none; border: 1px solid #236b56; background: #236b56; color: #f8fbf8; padding: 12px 24px; border-radius: 8px; font: 600 16px/1.5 Arial, sans-serif; cursor: pointer; transition: background-color 140ms ease-out, transform 140ms ease-out; }
-button:hover:not(:disabled) { background: #18523f; }
-button:focus-visible { outline: 3px solid #236b56; outline-offset: 4px; }
-button:active:not(:disabled) { transform: translateY(1px); }
-button:disabled { background: #b9c5be; border-color: #b9c5be; color: #34473d; cursor: wait; }
-.export-error { color: #8d2929; max-width: 1104px; margin: 16px auto; }
+.toolbar { display: flex; align-items: center; justify-content: space-between; gap: 24px; max-width: 1440px; margin: 24px auto; padding: 0 8px; font: 14px/1.5 H2GeistMono, monospace; color: var(--secondary); }
+button { appearance: none; border: 1px solid #4a5c1e; background: #d4ff4f; color: #101609; padding: 12px 24px; border-radius: 2px; font: 600 14px/1.5 H2Geist, Arial, sans-serif; cursor: pointer; transition: background-color 140ms ease-out, transform 140ms ease-out; }
+button:hover:not(:disabled) { background: #b8e63a; }
+button:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+button:active:not(:disabled) { background: #96c22b; transform: translateY(1px); }
+button:disabled { background: #303831; border-color: #303831; color: var(--secondary); cursor: wait; }
+.export-error { color: #e8455e; max-width: 1440px; margin: 16px auto; }
 .sheet-wrap { overflow-x: auto; padding: 0 16px 40px; }
-.sheet { isolation: isolate; width: 1104px; margin: 0 auto; background: #fbfcfa; padding: 56px; }
-.eyebrow { font-size: 16px; font-weight: 700; letter-spacing: 2px; color: #236b56; margin: 0 0 24px; }
-h1 { font-size: 64px; letter-spacing: -2px; line-height: 1.04; margin: 0; font-weight: 700; }
-.intro { color: #56665e; font-size: 24px; line-height: 1.5; max-width: 800px; margin: 24px 0 32px; }
-.flow { height: 896px; width: 992px; isolation: isolate; }
-.react-flow { background: transparent; }
-.step { width: 944px; height: 144px; display: flex; align-items: center; gap: 24px; padding: 24px 32px; border: 1px solid #d9e1da; border-radius: 16px; background: #f1f5f0; }
-.step-number { display: flex; flex: 0 0 56px; height: 56px; align-items: center; justify-content: center; color: #236b56; background: #e0eae1; border-radius: 12px; font-size: 24px; font-weight: 700; font-variant-numeric: tabular-nums; }
-.step h2 { font-size: 29px; line-height: 1.2; margin: 0 0 8px; letter-spacing: -0.3px; }
-.step p { font-size: 23px; line-height: 1.4; margin: 0; color: #52635b; max-width: 744px; }
-.step-final { background: #e3eee7; border-color: #9fbeaa; }
-.step-final .step-number { background: #236b56; color: #f8fbf8; }
-.react-flow__handle { width: 1px; height: 1px; min-width: 1px; min-height: 1px; border: 0; opacity: 0; }
-.react-flow__attribution { font-size: 10px; background: transparent; right: 24px; }
-.react-flow__attribution a { color: #6d7c74; }
-.proof { margin-top: 40px; padding: 0 24px; }
-.proof .eyebrow { margin-bottom: 16px; }
-.proof h2 { font-size: 36px; line-height: 1.2; letter-spacing: -0.5px; margin: 0 0 24px; }
-.proof-facts { display: grid; grid-template-columns: 1fr 1fr 1.15fr; gap: 24px; }
-.proof-facts strong { font-size: 25px; display: block; line-height: 1.25; margin-bottom: 8px; white-space: nowrap; }
-.proof-facts span { font-size: 21px; line-height: 1.45; color: #56665e; }
-.evidence-note { font-size: 18px; color: #66756d; margin: 24px 0 0; }
-.daily { display: flex; align-items: flex-start; gap: 24px; border: 1px dashed #aabbaf; border-radius: 12px; padding: 24px; margin-top: 40px; }
-.next-label { font-size: 14px; white-space: nowrap; font-weight: 700; letter-spacing: 1px; padding: 8px 12px; background: #eaf0e8; border-radius: 4px; margin-top: 4px; }
-.daily h2 { font-size: 26px; line-height: 1.25; margin: 0 0 8px; }
-.daily p { color: #52635b; margin: 0; font-size: 22px; line-height: 1.5; }
-.daily .future-note { font-size: 18px; margin-top: 8px; color: #66756d; }
-footer { font-size: 18px; color: #66756d; margin: 32px 0 0 24px; }
-@media (max-width: 700px) { .toolbar { margin: 16px; padding: 0; font-size: 14px; } .sheet-wrap { padding-left: 0; padding-right: 0; } }
+.sheet { isolation: isolate; width: 1440px; margin: 0 auto; background: var(--bg-page); padding: 48px 64px 32px; }
+.brand-bar { display: flex; align-items: center; justify-content: space-between; padding-bottom: 32px; border-bottom: 1px solid var(--border); }
+.brand-bar img { width: 80px; height: auto; }
+.brand-bar span, .eyebrow, .column-labels, .next-label { font-family: H2GeistMono, monospace; font-size: 14px; letter-spacing: 1.2px; font-weight: 500; }
+.brand-bar span { color: var(--secondary); }
+.eyebrow { color: var(--secondary); display: flex; align-items: center; gap: 12px; margin: 40px 0 16px; }
+.eyebrow > span { width: 8px; height: 8px; background: #6f8e24; }
+h1 { font-family: H2Komplekt, Arial, sans-serif; font-size: 64px; letter-spacing: -1.6px; line-height: 1.1; margin: 0; font-weight: 500; }
+.intro { color: var(--secondary); font-size: 23px; line-height: 1.5; margin: 20px 0 0; }
+.diagram-section { margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--border); }
+.column-labels { display: grid; grid-template-columns: 400px 584px 296px; width: 1280px; margin: 0 auto 16px; color: var(--label); }
+.flow { height: 400px; width: 1312px; isolation: isolate; }
+.react-flow { --xy-background-color: transparent; --xy-edge-stroke: var(--border-strong); --xy-handle-background-color: var(--border-strong); background: transparent; }
+.react-flow__node { font-family: H2Geist, Arial, sans-serif; }
+.flow-card { display: flex; align-items: center; width: 296px; min-height: 96px; border: 1px solid var(--border); border-radius: 2px; background: var(--bg-card); gap: 16px; padding: 16px; }
+.flow-icon { border: 1px solid var(--border); background: var(--bg-page); width: 48px; height: 48px; flex: 0 0 48px; display: flex; align-items: center; justify-content: center; color: var(--secondary); border-radius: 2px; }
+.flow-card-output .flow-icon { color: var(--accent); }
+.card-copy { min-width: 0; }
+.card-label { display: block; font-size: 20px; font-weight: 550; line-height: 1.25; white-space: nowrap; }
+.card-meta { display: block; font: 500 12px/1.4 H2GeistMono, monospace; color: var(--secondary); margin-top: 8px; white-space: nowrap; }
+.flow-engine { width: 448px; border: 1px solid var(--border-strong); background: var(--bg-card); border-radius: 2px; overflow: hidden; }
+.engine-header { min-height: 72px; display: flex; align-items: center; gap: 20px; padding: 16px 24px; background: var(--bg-page); border-bottom: 1px solid var(--border); font-size: 24px; font-weight: 600; }
+.engine-mark { width: 60px; height: 40px; flex: 0 0 60px; border-right: 1px solid var(--border); display: flex; align-items: center; }
+.engine-mark img { width: 44px; height: auto; }
+.engine-step { display: grid; grid-template-columns: 32px minmax(0,1fr) 32px; gap: 8px; min-height: 72px; padding: 0 24px; align-items: center; color: var(--secondary); border-bottom: 1px solid var(--border); font-size: 20px; line-height: 1.3; }
+.engine-step:last-child { border-bottom: 0; }
+.step-number { color: var(--label); font: 500 13px/1.4 H2GeistMono, monospace; }
+.step-icon { border: 1px solid var(--border); width: 32px; height: 32px; display: flex; align-items: center; justify-content: center; color: var(--secondary); background: var(--bg-page); border-radius: 2px; }
+.react-flow__handle { width: 8px; height: 8px; min-width: 8px; min-height: 8px; border: 0; background: var(--border-strong); }
+.react-flow__edge-path { shape-rendering: geometricPrecision; }
+.react-flow__attribution { background: transparent; font: 10px H2Geist, Arial, sans-serif; right: 0; bottom: 0; }
+.react-flow__attribution a { color: var(--label); }
+.proof { display: grid; grid-template-columns: 1.08fr 1fr 1fr 1.16fr; gap: 24px; padding: 32px 0; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); margin-top: 24px; }
+.proof .eyebrow { margin: 0 0 16px; font-size: 12px; color: var(--accent); }
+.proof h2 { font-family: H2Komplekt, Arial, sans-serif; font-weight: 500; font-size: 28px; line-height: 1.2; margin: 0; }
+.proof-fact { padding-left: 24px; border-left: 1px solid var(--border); }
+.proof-fact strong { display: block; color: var(--text); font-size: 22px; font-weight: 550; margin-bottom: 8px; white-space: nowrap; }
+.proof-fact span { color: var(--secondary); font-size: 17px; line-height: 1.5; }
+.daily { display: flex; gap: 40px; align-items: flex-start; padding: 24px 0; border-bottom: 1px solid var(--border); }
+.next-label { flex: 0 0 280px; color: var(--accent); padding-top: 4px; font-size: 13px; }
+.daily p { color: var(--text); margin: 0; font-size: 19px; line-height: 1.55; }
+.daily p span { color: var(--secondary); font-size: 16px; }
+footer { display: flex; align-items: center; justify-content: space-between; gap: 32px; margin-top: 24px; color: var(--label); font-size: 13px; line-height: 1.5; }
+footer span:last-child { font-family: H2GeistMono, monospace; color: var(--secondary); font-size: 14px; }
+@media (max-width: 700px) { .toolbar { margin: 16px; padding: 0; font-size: 12px; } .sheet-wrap { padding-left: 0; padding-right: 0; } }
 @media (prefers-reduced-motion: reduce) { button { transition: none; } }

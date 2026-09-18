@@ -19,21 +19,21 @@ try {
   const macChrome = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';
   const executablePath = process.env.CHROME_EXECUTABLE || (existsSync(macChrome) ? macChrome : undefined);
   browser = await chromium.launch({ headless: true, executablePath });
-  const page = await browser.newPage({ viewport: { width: 1280, height: 2000 }, deviceScaleFactor: 1 });
+  const page = await browser.newPage({ viewport: { width: 1600, height: 1300 }, deviceScaleFactor: 1 });
   const errors = [];
   page.on('pageerror', error => errors.push(error.message));
   await page.goto('http://127.0.0.1:4173', { waitUntil: 'networkidle' });
   await page.waitForSelector('[data-ready="true"]');
   await page.waitForFunction(() => Array.from(document.querySelectorAll('.react-flow__node')).every(node => node.getBoundingClientRect().height > 0));
-  if (await page.locator('.react-flow__node').count() !== 5) throw new Error('Expected five React Flow nodes');
-  if (await page.locator('.react-flow__edge').count() !== 4) throw new Error('Expected four React Flow edges');
+  if (await page.locator('.react-flow__node').count() !== 7) throw new Error('Expected seven React Flow nodes');
+  if (await page.locator('.react-flow__edge').count() !== 6) throw new Error('Expected six React Flow edges');
   const downloadPromise = page.waitForEvent('download');
   await page.getByRole('button', { name: 'Download PNG' }).click();
   const download = await downloadPromise;
   mkdirSync(path.dirname(output), { recursive: true });
   await download.saveAs(output);
   if (errors.length) throw new Error(errors.join('\n'));
-  console.log('Exported five React Flow nodes and four edges through the PNG download button.');
+  console.log('Exported seven H2-styled React Flow nodes and six edges through the PNG download button.');
   console.log(output);
 } finally {
   await browser?.close();
